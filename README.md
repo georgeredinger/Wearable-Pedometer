@@ -27,9 +27,12 @@ http://pan.baidu.com/share/link?shareid=1904393090&uk=4228226257
 KEIL 4.7.2：
 http://pan.baidu.com/share/link?shareid=1885488220&uk=4228226257
 
-安装TortoisGit：
+#### 安装TortoisGit：
 https://code.google.com/p/tortoisegit/
 *Git是版本管理软件，我们的开源项目将会放到github（还有其他git托管服务器）上，方便全世界的朋友一起完善。*
+
+### 学习计步器原理：
+http://www.analog.com/library/analogDialogue/china/archives/44-06/pedometer.html
 
 
 ## 实现原型
