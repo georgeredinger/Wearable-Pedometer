@@ -24,11 +24,12 @@ http://pan.baidu.com/share/link?shareid=1896779578&uk=4228226257
 http://pan.baidu.com/share/link?shareid=1904393090&uk=4228226257
 
 ### 安装编译软件
-KEIL 4.7.2：
+** KEIL 4.7.2 **：
 http://pan.baidu.com/share/link?shareid=1885488220&uk=4228226257
 
 #### 安装TortoisGit：
 https://code.google.com/p/tortoisegit/
+
 *Git是版本管理软件，我们的开源项目将会放到github（还有其他git托管服务器）上，方便全世界的朋友一起完善。*
 
 ### 学习计步器原理：
@@ -38,7 +39,9 @@ http://www.analog.com/library/analogDialogue/china/archives/44-06/pedometer.html
 ## 实现原型
 
 ### 硬件部分
-使用nRF51822-AK（官方EK或者Pro均可，但是需要外接MPU6050模块）为硬件平台
+使用nRF51822-AK（官方EK或者Pro均可，但是需要外接MPU6050模块）为硬件平台。
+
+http://nrf51.taobao.com
 
 ### 手机APP
 使用NORDIC官方提供的nRF HRM（心率计）app为基础。注意这个软件可能单独提供，也可能包含在nRF Utility中。
@@ -46,4 +49,16 @@ http://www.analog.com/library/analogDialogue/china/archives/44-06/pedometer.html
 官方提供如下app和支持如下设备：
 http://www.nordicsemi.com/Products/nRFready-Demo-APPS
 
+## 编译代码
+### 1. 使用git下载代码：
+git clone https://github.com/overheat/Wearable-Pedometer.git
+
+### 2. 打开工程文件
+Wearable-Pedometer\Board\pca10001\ble\ble_app_hrs\arm\ble_app_hrs.uvproj
+
+### 3. 编译代码
+在Keil的菜单栏中，点击Project->build target。或者，直接使用快捷键“F7”
+
+### 4. Hex文件
+Wearable-Pedometer\Board\pca10001\ble\ble_app_hrs\arm\_build\ble_app_hrs.hex
 
