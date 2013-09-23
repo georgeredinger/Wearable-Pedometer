@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sensors</key>
+	<dict>
+		<key>Heartrate</key>
+		<array>
+			<dict>
+				<key>deviceNumber</key>
+				<integer>90</integer>
+				<key>transmissionType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>deviceNumber</key>
+				<integer>91</integer>
+				<key>transmissionType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>deviceNumber</key>
+				<integer>92</integer>
+				<key>transmissionType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>deviceNumber</key>
+				<integer>100</integer>
+				<key>transmissionType</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

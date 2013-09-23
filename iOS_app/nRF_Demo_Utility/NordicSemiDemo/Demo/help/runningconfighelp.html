@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Running config Help</title>
+		<style type="text/css" media="screen">
+			body {
+				padding: 20px;
+				font-family: Helvetica;
+                font-size: 1.8em;
+			}
+            h4 {
+                font-size: 1.3em;
+            }
+            </style>
+        </head>
+<html>
+    <body>
+        <h4>COMMON SENSOR INFO</h4>
+        
+        <h4>Proximity</h4>
+        <p>When set to ON, enables proximity pairing. Default is OFF.</p>
+        
+        <h4>Wildcard</h4> 
+        <p>When set to ON, enables iPhone to connect to unpaired devices (devices not in the Manage Connections list). Default is OFF.</p>
+        
+        <h4>Dev ID</h4>
+        <p>Returns the Device ID of the connected sensor.</p>
+        
+        <h4>Signal Eff</h4>
+        <p>Returns the signal efficiency for the connected sensor.
+        <ul><li>For ANT connections, this property represents the ratio of messages received from the sensor over the number of messages expected (range [0, 1.0]). This value should give a good indication of the reception quality for the sensor.</li>
+            <li>For BT Smart connections, this property represents the RSSI (in dBm). If the sensor is not currently connected, the return value is -1.</li></ul>
+        </p>
+        
+        <h4>Sensor Info</h4>
+        <p>Information about the sensor connected.</p>      
+
+		<h4>Manage Connections</h4>
+        <p>List of paired devices. To delete a paired device from the list swipe left on the right hand side of the screen and press Delete.</p>
+        
+        <h4>HEART RATE INFO</h4>
+        
+        <h4>beatCount</h4>
+        <p>A single byte value which increments with each heart beat event. This value will roll over every 255 counts.</p>
+        
+        <h4>beatTime</h4>
+        <p>Represents the time of the last valid heart beat event. The time units are 1/1024 seconds. Since the values are stored in two byte integers which have a maximum value of 65536, the value will roll over at 64 seconds (65536 / 1024). This should be taken into consideration when determining the currency of the data.</p>
+                    
+		<h4>prevBeat</h4>
+        <p>Represents the time of the previous valid heart beat event.</p>
+		
+        <h4>STRIDE SENSOR INFO</h4>
+        
+        <h4>accStride</h4>
+        <p>The accumulated stride count. When available, this value is similar to the strideCount value, but with a larger roll over value.</p>
+       
+   		<h4>strideCount</h4>
+        <p>The current stride count. The stride count is a single byte value which rolls over after 255 strides.</p>
+        
+        <h4>unitHealth</h4>
+        <p>The health status of the device. This value uses two bits of data. The values are: 00 OK, 01 Error, and 10 Warning.</p>
+     
+	    <h4>latency</h4>
+        <p>The time elapsed between the last speed and distance computation and the current measurement. The resolution of this value is 1/32 second.</p>
+        
+	    <h4>useState</h4>
+        <p>The current use state of the device. This value uses two bits of data. The values are: 00 Inactive and 01 Active (the other two values are currently not specified).</p>
+  
+        <h4>moduleLocation</h4> 
+        <p>The location of the sensor device. This value uses two bits of data. The values are: 00 Laces, 01 Midsole, 10 Chest, and 11 Other.</p>
+          
+    </body>
+</html>

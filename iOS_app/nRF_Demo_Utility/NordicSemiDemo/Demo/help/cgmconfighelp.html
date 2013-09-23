@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Continues glucose meter config Help</title>
+		<style type="text/css" media="screen">
+			body {
+				padding: 20px;
+				font-family: Helvetica;
+                font-size: 1.8em;
+			}
+            h4 {
+                font-size: 1.3em;
+            }
+            </style>
+        </head>
+<html>
+    <body>
+        <h4>CONTINUOUS GLUCOSE METER INFO</h4>
+        
+        <h4>Proximity</h4>
+        <p>When set to ON, enables proximity pairing. Default is OFF.</p>
+        
+        <h4>Wildcard</h4> 
+        <p>When set to ON, enables iPhone to connect to unpaired devices (devices not in the Manage Connections list). Default is OFF.</p>
+        		
+		<h4>TID</h4>
+        <p>Transmitter ID for the sensor. Set to same value as written on the sensor.</p>             
+
+		<h4>PK</h4>
+        <p>Permission Key for the sensor. Set to same value as written on the sensor.</p>             
+		
+		<h4>ALERTS</h4>
+        <p>Turn alarm signals on the phone on/off</p>      
+        <p>High Alert - Give alarm if clucose level is above high threshold level</p>      
+        <p>Low Alert - Give alarm if clucose level is below low threshold level</p>      
+        <p>Rise Alert - Give alarm if glucose level is increasing too rapidly</p>      
+        <p>Fall Alert - Give alarm if glucose level is decreasing too rapidly</p>      
+
+        <h4>curr dev time</h4>
+        <p>Returns the current time of the sensor.</p>
+        
+        <h4>elapsed time</h4>
+        <p>Returns the elapsed time since the sensor was started in seconds.</p>
+
+	    <h4>timestamp</h4>
+        <p>Returns the time of the last glucose measurement.</p>
+   
+		<h4>rate of chng</h4>
+        <p>Returns the glucose rate of change value from the sensor.</p>
+        <p>0 - Rate is Unavailable</p>
+		<p>1 - Rapidly Increasing, 8 to 3 mg/dL per minute</p>
+		<p>2 - Increasing, 3 to 2 mg/dL per minute</p>
+		<p>3 - Slowly Increasing, 2 to 1 mg/dL per minute</p>
+		<p>4 - Steady, 1 to -1 mg/dL per minute</p>
+		<p>5 - Slowly Decreasing, -1 to -2 mg/dL per minute</p>
+		<p>6 - Decreasing, -2 to -3 mg/dL per minute</p>
+		<p>7 - Rapidly Decreasing, -3 to -8 mg/dL per minute</p>
+		
+		<h4>alert high</h4>
+        <p>Returns the status of the high alert from the sensor.</p>      
+
+        <h4>alert low</h4>
+        <p>Returns the status of the low alert rom the sensor.</p>      
+
+        <h4>alert rising</h4>
+        <p>Returns the status of the rising alert from the sensor.</p>      
+
+        <h4>alert falling</h4>
+        <p>Returns the status of the falling alert from the sensor.</p>      
+
+        <h4>alert below 55</h4>
+        <p>Returns the status of the "below 55" alert from the sensor.</p>      
+
+        <h4>Sensor Info</h4>
+        <p>Information about the sensor connected.</p>      
+
+		<h4>Manage Connections</h4>
+        <p>List of paired devices. To delete a paired device from the list swipe left on the right hand side of the screen and press Delete.</p>
+
+    </body>
+</html>

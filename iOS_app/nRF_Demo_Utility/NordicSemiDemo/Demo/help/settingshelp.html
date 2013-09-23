@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Settings Help</title>
+		<style type="text/css" media="screen">
+			body {
+				padding: 20px;
+				font-family: Helvetica;
+                font-size: 1.8em;
+			}
+            h4 {
+                font-size: 1.3em;
+            }
+            </style>
+        </head>
+<html>
+    <body>
+        <h4>Multitasking</h4>
+        <p>When set to ON, enables APP to work in the background. Default is OFF.</p>
+        
+        <h4>Sample Rate</h4> 
+        <p>Sets the sample rate in seconds. The value of this property will determine how often data updates are sent to the delegate. Default value is 500 ms</p>
+        
+        <h4>Wheel Circ</h4>
+        <p>Specifies the bike wheel circumference, in meters. This value is used to determine speed and distance in the bike sensors. Default value is 2070 mm</p>
+        
+        <h4>Stale String</h4>
+        <p>The string returned by data formatting methods when data for the sensor is considered "stale". Default value is “--“</p>
+        
+        <h4>Stale Timeout</h4>
+        <p>The stale data timeout, in seconds. If the time since the latest data was received from the sensor exceeds this value, the data for that sensor will be considered "stale". Default value is 5 seconds.</p>
+        
+        <h4>Coasting Timeout</h4>
+        <p>The bike coasting timeout, in seconds. If no data is received for this duration, the bike is considered to be coasting. Default value is 3 seconds.</p>
+        
+    </body>
+</html>

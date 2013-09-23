@@ -1,0 +1,1805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935E0C6815540748003DF889 /* ANT+-and-ANT-n-Suunto.png in Resources */ = {isa = PBXBuildFile; fileRef = 935E0C6615540748003DF889 /* ANT+-and-ANT-n-Suunto.png */; };
+		935E0C6915540748003DF889 /* ANT+-and-ANT-n-Suunto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 935E0C6715540748003DF889 /* ANT+-and-ANT-n-Suunto@2x.png */; };
+		938CA6761677BD0A0077F96F /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 938CA6741677BBFD0077F96F /* ServerManager.m */; };
+		938CA6781677BD290077F96F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938CA6771677BD290077F96F /* AVFoundation.framework */; };
+		938CA67A1677BDFE0077F96F /* alarm-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938CA6791677BDFE0077F96F /* alarm-sound.wav */; };
+		9390409216809CE700AC8E99 /* SILENCE-TAG-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9390408E16809CE700AC8E99 /* SILENCE-TAG-down.png */; };
+		9390409316809CE700AC8E99 /* SILENCE-TAG-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9390408F16809CE700AC8E99 /* SILENCE-TAG-down@2x.png */; };
+		9390409416809CE700AC8E99 /* SILENCE-TAG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9390409016809CE700AC8E99 /* SILENCE-TAG.png */; };
+		9390409516809CE700AC8E99 /* SILENCE-TAG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9390409116809CE700AC8E99 /* SILENCE-TAG@2x.png */; };
+		AB0A04CB140FF08100A8A19B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0A04CA140FF08100A8A19B /* UIKit.framework */; };
+		AB0A04CD140FF08100A8A19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0A04CC140FF08100A8A19B /* Foundation.framework */; };
+		AB0A04CF140FF08100A8A19B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0A04CE140FF08100A8A19B /* CoreGraphics.framework */; };
+		AB0A04D5140FF08100A8A19B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04D3140FF08100A8A19B /* InfoPlist.strings */; };
+		AB0A04D7140FF08100A8A19B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A04D6140FF08100A8A19B /* main.m */; };
+		AB0A04DB140FF08100A8A19B /* NordicSemiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A04DA140FF08100A8A19B /* NordicSemiAppDelegate.m */; };
+		AB0A04DE140FF08100A8A19B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04DC140FF08100A8A19B /* MainWindow.xib */; };
+		AB0A04E1140FF08100A8A19B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A04E0140FF08100A8A19B /* RootViewController.m */; };
+		AB0A04E4140FF08100A8A19B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04E2140FF08100A8A19B /* RootViewController.xib */; };
+		AB0A04F6140FF5BE00A8A19B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04F2140FF5BE00A8A19B /* Default.png */; };
+		AB0A04F7140FF5BE00A8A19B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04F3140FF5BE00A8A19B /* Default@2x.png */; };
+		AB0A04F8140FF5BE00A8A19B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04F4140FF5BE00A8A19B /* icon.png */; };
+		AB0A04F9140FF5BE00A8A19B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0A04F5140FF5BE00A8A19B /* icon@2x.png */; };
+		AB6D215B1425202100EB6F27 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6D215A1425202100EB6F27 /* MediaPlayer.framework */; };
+		AB72717B14E60CCE0046A6C2 /* 0-BARS.png in Resources */ = {isa = PBXBuildFile; fileRef = AB72717A14E60CCE0046A6C2 /* 0-BARS.png */; };
+		AB9CD018146DAB00002EEAA3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9CD016146DAB00002EEAA3 /* SettingsViewController.m */; };
+		AB9CD019146DAB00002EEAA3 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9CD017146DAB00002EEAA3 /* SettingsViewController.xib */; };
+		ABA69D2C1416DC0900B5AA13 /* AntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA69D251416DC0800B5AA13 /* AntViewController.m */; };
+		ABA69D2D1416DC0900B5AA13 /* CommandChooserController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA69D271416DC0800B5AA13 /* CommandChooserController.m */; };
+		ABA69D2E1416DC0900B5AA13 /* AntViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA69D281416DC0900B5AA13 /* AntViewController.xib */; };
+		ABA69D2F1416DC0900B5AA13 /* CommandChooserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA69D2A1416DC0900B5AA13 /* CommandChooserController.xib */; };
+		ABE92517141014E40061D3D3 /* SensorInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABE92516141014E40061D3D3 /* SensorInfo.plist */; };
+		ABE92546141021A30061D3D3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE92545141021A30061D3D3 /* ExternalAccessory.framework */; };
+		ABE92548141021CB0061D3D3 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE92547141021CB0061D3D3 /* WFConnector.framework */; };
+		ABF26997141035930013B3B1 /* HeartrateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF26991141035930013B3B1 /* HeartrateViewController.xib */; };
+		ABF26998141035930013B3B1 /* HeartrateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26994141035930013B3B1 /* HeartrateViewController.m */; };
+		ABF26999141035930013B3B1 /* WFSensorCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26996141035930013B3B1 /* WFSensorCommonViewController.m */; };
+		ABF2699F141036D50013B3B1 /* SensorManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF2699B141036D50013B3B1 /* SensorManagerViewController.xib */; };
+		ABF269A0141036D50013B3B1 /* SensorManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2699E141036D50013B3B1 /* SensorManagerViewController.m */; };
+		ABF269B814104FCA0013B3B1 /* BikeSpeedCadenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269B514104FCA0013B3B1 /* BikeSpeedCadenceViewController.m */; };
+		ABF269B914104FCA0013B3B1 /* BikeSpeedCadenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269B614104FCA0013B3B1 /* BikeSpeedCadenceViewController.xib */; };
+		ABF269BE141059FD0013B3B1 /* BikeSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269BB141059FD0013B3B1 /* BikeSpeedViewController.m */; };
+		ABF269BF141059FD0013B3B1 /* BikeSpeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269BC141059FD0013B3B1 /* BikeSpeedViewController.xib */; };
+		ABF269C414105CB90013B3B1 /* BikeCadenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269C114105CB90013B3B1 /* BikeCadenceViewController.m */; };
+		ABF269C514105CB90013B3B1 /* BikeCadenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269C214105CB90013B3B1 /* BikeCadenceViewController.xib */; };
+		ABF269CE14105E130013B3B1 /* BikePowerCalibration.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269C714105E120013B3B1 /* BikePowerCalibration.m */; };
+		ABF269CF14105E130013B3B1 /* BikePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269C914105E130013B3B1 /* BikePowerViewController.m */; };
+		ABF269D014105E130013B3B1 /* BikePowerCalibration.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269CA14105E130013B3B1 /* BikePowerCalibration.xib */; };
+		ABF269D114105E130013B3B1 /* BikePowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269CC14105E130013B3B1 /* BikePowerViewController.xib */; };
+		ABF269D6141060740013B3B1 /* FootpodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF269D2141060730013B3B1 /* FootpodViewController.xib */; };
+		ABF269D7141060740013B3B1 /* FootpodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF269D5141060730013B3B1 /* FootpodViewController.m */; };
+		D405113B1496D2B1004F1B01 /* RunningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40511391496D2B1004F1B01 /* RunningViewController.xib */; };
+		D405113E1496D2C4004F1B01 /* RunningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D405113D1496D2C4004F1B01 /* RunningViewController.m */; };
+		D41B666F14F6A5A300E5A530 /* Battery.png in Resources */ = {isa = PBXBuildFile; fileRef = D41B666D14F6A5A300E5A530 /* Battery.png */; };
+		D41B667014F6A5A300E5A530 /* Battery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41B666E14F6A5A300E5A530 /* Battery@2x.png */; };
+		D41B667514F6A68300E5A530 /* bgmconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D41B667114F6A68300E5A530 /* bgmconfighelp.html */; };
+		D41B667614F6A68300E5A530 /* btlebikingconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D41B667214F6A68300E5A530 /* btlebikingconfighelp.html */; };
+		D41B667714F6A68300E5A530 /* btlebpconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D41B667314F6A68300E5A530 /* btlebpconfighelp.html */; };
+		D41B667814F6A68300E5A530 /* cgmconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D41B667414F6A68300E5A530 /* cgmconfighelp.html */; };
+		D41D4140150A6C0300F081F8 /* ANTDeviceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D413F150A6C0300F081F8 /* ANTDeviceInfoVC.m */; };
+		D41D4144150A6C1A00F081F8 /* BTDeviceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D4143150A6C1A00F081F8 /* BTDeviceInfoVC.m */; };
+		D41D4149150A6C6400F081F8 /* ANTDeviceInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41D4145150A6C6400F081F8 /* ANTDeviceInfoVC.xib */; };
+		D41D414A150A6C6400F081F8 /* BTDeviceInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41D4147150A6C6400F081F8 /* BTDeviceInfoVC.xib */; };
+		D41E92B41497182A00456989 /* BTLESensorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41E92B21497182A00456989 /* BTLESensorsViewController.xib */; };
+		D41E92B81497183400456989 /* BTLESensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E92B71497183400456989 /* BTLESensorsViewController.m */; };
+		D41E92C11497B9ED00456989 /* BikingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E92C01497B9ED00456989 /* BikingViewController.m */; };
+		D41E92C51497B9F900456989 /* BikingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41E92C31497B9F900456989 /* BikingViewController.xib */; };
+		D424B49E1490723E004B1F0F /* AntSensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D424B49C1490723E004B1F0F /* AntSensorsViewController.m */; };
+		D424B49F1490723E004B1F0F /* AntSensorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D424B49D1490723E004B1F0F /* AntSensorsViewController.xib */; };
+		D424B4A2149072E1004B1F0F /* Background-gradient-plain.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4A1149072E1004B1F0F /* Background-gradient-plain.png */; };
+		D424B4A414907300004B1F0F /* Background-gradient-plain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4A314907300004B1F0F /* Background-gradient-plain@2x.png */; };
+		D424B4A6149073A6004B1F0F /* ANT+-BLACK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4A5149073A6004B1F0F /* ANT+-BLACK@2x.png */; };
+		D424B4A8149073C5004B1F0F /* ANT+-BLACK.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4A7149073C5004B1F0F /* ANT+-BLACK.png */; };
+		D424B4C414907476004B1F0F /* BACK-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4A914907474004B1F0F /* BACK-down.png */; };
+		D424B4C514907476004B1F0F /* BACK.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AA14907474004B1F0F /* BACK.png */; };
+		D424B4C614907476004B1F0F /* BIKING-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AB14907474004B1F0F /* BIKING-down.png */; };
+		D424B4C714907476004B1F0F /* BIKING.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AC14907474004B1F0F /* BIKING.png */; };
+		D424B4C814907476004B1F0F /* BP-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AD14907474004B1F0F /* BP-down.png */; };
+		D424B4C914907476004B1F0F /* CONFIGURE-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AE14907474004B1F0F /* CONFIGURE-down.png */; };
+		D424B4CA14907476004B1F0F /* CONFIGURE.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4AF14907474004B1F0F /* CONFIGURE.png */; };
+		D424B4CB14907476004B1F0F /* CONNECT-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B014907474004B1F0F /* CONNECT-down.png */; };
+		D424B4CC14907476004B1F0F /* CONNECT.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B114907474004B1F0F /* CONNECT.png */; };
+		D424B4CD14907476004B1F0F /* DISCONNECT-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B214907474004B1F0F /* DISCONNECT-down.png */; };
+		D424B4CE14907476004B1F0F /* DISCONNECT.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B314907475004B1F0F /* DISCONNECT.png */; };
+		D424B4CF14907476004B1F0F /* FIND-MY-TAG-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B414907475004B1F0F /* FIND-MY-TAG-down.png */; };
+		D424B4D014907476004B1F0F /* FIND-MY-TAG.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B514907475004B1F0F /* FIND-MY-TAG.png */; };
+		D424B4D114907476004B1F0F /* HELP-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B614907475004B1F0F /* HELP-down.png */; };
+		D424B4D214907476004B1F0F /* HELP.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B714907475004B1F0F /* HELP.png */; };
+		D424B4D314907476004B1F0F /* HRM-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B814907475004B1F0F /* HRM-down.png */; };
+		D424B4D414907476004B1F0F /* HRM.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4B914907475004B1F0F /* HRM.png */; };
+		D424B4D514907476004B1F0F /* MANAGE-CONNECTIONS-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BA14907475004B1F0F /* MANAGE-CONNECTIONS-down.png */; };
+		D424B4D614907476004B1F0F /* MANAGE-CONNECTIONS.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BB14907475004B1F0F /* MANAGE-CONNECTIONS.png */; };
+		D424B4D714907476004B1F0F /* PROXIMITY-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BC14907475004B1F0F /* PROXIMITY-down.png */; };
+		D424B4D814907476004B1F0F /* PROXIMITY.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BD14907475004B1F0F /* PROXIMITY.png */; };
+		D424B4D914907476004B1F0F /* RUNNING-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BE14907475004B1F0F /* RUNNING-down.png */; };
+		D424B4DA14907476004B1F0F /* RUNNING.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4BF14907475004B1F0F /* RUNNING.png */; };
+		D424B4DB14907476004B1F0F /* TEMP-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4C014907475004B1F0F /* TEMP-down.png */; };
+		D424B4DC14907476004B1F0F /* TEMP.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4C114907476004B1F0F /* TEMP.png */; };
+		D424B4DD14907476004B1F0F /* WEIGHT-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4C214907476004B1F0F /* WEIGHT-down.png */; };
+		D424B4DE14907476004B1F0F /* WEIGHT.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4C314907476004B1F0F /* WEIGHT.png */; };
+		D424B4E3149074BE004B1F0F /* BLUETOOTH-SMART-LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4DF149074BE004B1F0F /* BLUETOOTH-SMART-LOGO.png */; };
+		D424B4E4149074BE004B1F0F /* BOX-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E0149074BE004B1F0F /* BOX-blue.png */; };
+		D424B4E5149074BE004B1F0F /* BOX-CONFIG-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E1149074BE004B1F0F /* BOX-CONFIG-blue.png */; };
+		D424B4E6149074BE004B1F0F /* NORDIC-LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E2149074BE004B1F0F /* NORDIC-LOGO.png */; };
+		D424B50914907675004B1F0F /* BACK-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E714907672004B1F0F /* BACK-down@2x.png */; };
+		D424B50A14907675004B1F0F /* BACK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E814907672004B1F0F /* BACK@2x.png */; };
+		D424B50B14907675004B1F0F /* BIKING-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4E914907672004B1F0F /* BIKING-down@2x.png */; };
+		D424B50C14907675004B1F0F /* BIKING@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4EA14907672004B1F0F /* BIKING@2x.png */; };
+		D424B50D14907675004B1F0F /* BLUETOOTH-SMART-LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4EB14907672004B1F0F /* BLUETOOTH-SMART-LOGO@2x.png */; };
+		D424B50E14907675004B1F0F /* BOX-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4EC14907673004B1F0F /* BOX-blue@2x.png */; };
+		D424B50F14907675004B1F0F /* BOX-CONFIG-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4ED14907673004B1F0F /* BOX-CONFIG-blue@2x.png */; };
+		D424B51014907675004B1F0F /* BP-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4EE14907673004B1F0F /* BP-down@2x.png */; };
+		D424B51114907675004B1F0F /* BP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4EF14907673004B1F0F /* BP@2x.png */; };
+		D424B51214907675004B1F0F /* CONFIGURE-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F014907673004B1F0F /* CONFIGURE-down@2x.png */; };
+		D424B51314907675004B1F0F /* CONFIGURE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F114907673004B1F0F /* CONFIGURE@2x.png */; };
+		D424B51414907675004B1F0F /* CONNECT-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F214907673004B1F0F /* CONNECT-down@2x.png */; };
+		D424B51514907675004B1F0F /* CONNECT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F314907673004B1F0F /* CONNECT@2x.png */; };
+		D424B51614907675004B1F0F /* DISCONNECT-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F414907673004B1F0F /* DISCONNECT-down@2x.png */; };
+		D424B51714907675004B1F0F /* DISCONNECT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F514907673004B1F0F /* DISCONNECT@2x.png */; };
+		D424B51814907675004B1F0F /* FIND-MY-TAG-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F614907673004B1F0F /* FIND-MY-TAG-down@2x.png */; };
+		D424B51914907675004B1F0F /* FIND-MY-TAG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F714907674004B1F0F /* FIND-MY-TAG@2x.png */; };
+		D424B51A14907675004B1F0F /* HELP-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F814907674004B1F0F /* HELP-down@2x.png */; };
+		D424B51B14907675004B1F0F /* HELP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4F914907674004B1F0F /* HELP@2x.png */; };
+		D424B51C14907675004B1F0F /* HRM-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FA14907674004B1F0F /* HRM-down@2x.png */; };
+		D424B51D14907675004B1F0F /* HRM@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FB14907674004B1F0F /* HRM@2x.png */; };
+		D424B51E14907675004B1F0F /* MANAGE-CONNECTIONS-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FC14907674004B1F0F /* MANAGE-CONNECTIONS-down@2x.png */; };
+		D424B51F14907675004B1F0F /* MANAGE-CONNECTIONS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FD14907674004B1F0F /* MANAGE-CONNECTIONS@2x.png */; };
+		D424B52014907675004B1F0F /* NORDIC-LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FE14907674004B1F0F /* NORDIC-LOGO@2x.png */; };
+		D424B52114907675004B1F0F /* PADLOCK-OPEN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B4FF14907674004B1F0F /* PADLOCK-OPEN@2x.png */; };
+		D424B52214907675004B1F0F /* PADLOCK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50014907674004B1F0F /* PADLOCK@2x.png */; };
+		D424B52314907675004B1F0F /* PROXIMITY-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50114907674004B1F0F /* PROXIMITY-down@2x.png */; };
+		D424B52414907675004B1F0F /* PROXIMITY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50214907674004B1F0F /* PROXIMITY@2x.png */; };
+		D424B52514907675004B1F0F /* RUNNING-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50314907674004B1F0F /* RUNNING-down@2x.png */; };
+		D424B52614907675004B1F0F /* RUNNING@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50414907674004B1F0F /* RUNNING@2x.png */; };
+		D424B52714907675004B1F0F /* TEMP-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50514907675004B1F0F /* TEMP-down@2x.png */; };
+		D424B52814907675004B1F0F /* TEMP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50614907675004B1F0F /* TEMP@2x.png */; };
+		D424B52914907675004B1F0F /* WEIGHT-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50714907675004B1F0F /* WEIGHT-down@2x.png */; };
+		D424B52A14907675004B1F0F /* WEIGHT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B50814907675004B1F0F /* WEIGHT@2x.png */; };
+		D424B52D1490768D004B1F0F /* PADLOCK-OPEN.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B52B1490768D004B1F0F /* PADLOCK-OPEN.png */; };
+		D424B52E1490768D004B1F0F /* PADLOCK.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B52C1490768D004B1F0F /* PADLOCK.png */; };
+		D424B5351490815B004B1F0F /* NordicNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D424B5341490815A004B1F0F /* NordicNavigationBar.m */; };
+		D424B53E1491D1DA004B1F0F /* NordicNavbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B53D1491D1D4004B1F0F /* NordicNavbar.png */; };
+		D424B5401491D5E1004B1F0F /* NordicNavbarWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D424B53F1491D5E0004B1F0F /* NordicNavbarWhite.png */; };
+		D42B44C415419FF0009989F2 /* BTBPRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B44C315419FF0009989F2 /* BTBPRecord.m */; };
+		D42F8B2A1513978300F78E62 /* constantArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B281513978300F78E62 /* constantArrowWhite.png */; };
+		D42F8B2B1513978300F78E62 /* constantArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B291513978300F78E62 /* constantArrowWhite@2x.png */; };
+		D42F8B311513BC4500F78E62 /* mediumDownArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B2D1513BC4500F78E62 /* mediumDownArrowWhite.png */; };
+		D42F8B321513BC4500F78E62 /* mediumDownArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B2E1513BC4500F78E62 /* mediumDownArrowWhite@2x.png */; };
+		D42F8B331513BC4500F78E62 /* mediumUpArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B2F1513BC4500F78E62 /* mediumUpArrowWhite.png */; };
+		D42F8B341513BC4500F78E62 /* mediumUpArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B301513BC4500F78E62 /* mediumUpArrowWhite@2x.png */; };
+		D42F8B381513DA7100F78E62 /* MultiConfigScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F8B361513DA7100F78E62 /* MultiConfigScrollerController.m */; };
+		D42F8B391513DA7100F78E62 /* MultiConfigScrollerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B371513DA7100F78E62 /* MultiConfigScrollerController.xib */; };
+		D42F8B3D1513DCC100F78E62 /* GlucoseVCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F8B3B1513DCC100F78E62 /* GlucoseVCSettings.m */; };
+		D42F8B3E1513DCC100F78E62 /* GlucoseVCSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F8B3C1513DCC100F78E62 /* GlucoseVCSettings.xib */; };
+		D4333FEE14F6CAAC00902A40 /* BTGlucoseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4333FE914F6CAAB00902A40 /* BTGlucoseDetailVC.m */; };
+		D4333FEF14F6CAAC00902A40 /* BTGlucoseDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4333FEA14F6CAAB00902A40 /* BTGlucoseDetailVC.xib */; };
+		D4333FF014F6CAAC00902A40 /* BTGlucoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4333FEC14F6CAAB00902A40 /* BTGlucoseVC.m */; };
+		D4333FF114F6CAAC00902A40 /* BTGlucoseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4333FED14F6CAAC00902A40 /* BTGlucoseVC.xib */; };
+		D4333FF514F73CE800902A40 /* BGMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4333FF314F73CE700902A40 /* BGMViewController.xib */; };
+		D4333FF814F73D0200902A40 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4333FF714F73D0200902A40 /* BGMViewController.m */; };
+		D433400614F9471F00902A40 /* GlucoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D433400414F9471D00902A40 /* GlucoseVC.m */; };
+		D433400714F9471F00902A40 /* GlucoseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D433400514F9471E00902A40 /* GlucoseVC.xib */; };
+		D433400E14F952A900902A40 /* cgmsettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D433400D14F952A900902A40 /* cgmsettings.plist */; };
+		D433401114F9649500902A40 /* CGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D433401014F9649200902A40 /* CGMViewController.m */; };
+		D433401414F964B000902A40 /* CGMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D433401214F964AF00902A40 /* CGMViewController.xib */; };
+		D433401914F97F0900902A40 /* downArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D433401514F97F0900902A40 /* downArrowWhite.png */; };
+		D433401A14F97F0900902A40 /* downArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D433401614F97F0900902A40 /* downArrowWhite@2x.png */; };
+		D433401B14F97F0900902A40 /* upArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D433401714F97F0900902A40 /* upArrowWhite.png */; };
+		D433401C14F97F0900902A40 /* upArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D433401814F97F0900902A40 /* upArrowWhite@2x.png */; };
+		D433402F14F9D77A00902A40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433402E14F9D77A00902A40 /* QuartzCore.framework */; };
+		D433409214F9EC2B00902A40 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D433409114F9EC2B00902A40 /* libCorePlot-CocoaTouch.a */; };
+		D43340A414FAA97700902A40 /* dashedline.png in Resources */ = {isa = PBXBuildFile; fileRef = D43340A214FAA97700902A40 /* dashedline.png */; };
+		D43340A514FAA97700902A40 /* dashedline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D43340A314FAA97700902A40 /* dashedline@2x.png */; };
+		D43882B5153C73FE00D253DC /* WeightScaleConfController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43882B4153C73FE00D253DC /* WeightScaleConfController.m */; };
+		D43882B9153C741A00D253DC /* WeightScaleConfController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43882B7153C741A00D253DC /* WeightScaleConfController.xib */; };
+		D482C0A514AEBE3500E3CD19 /* anthelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0A414AEBE3500E3CD19 /* anthelp.html */; };
+		D482C0A714AEBE6A00E3CD19 /* btlehelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0A614AEBE6A00E3CD19 /* btlehelp.html */; };
+		D482C0A914AEBEE600E3CD19 /* antsensorhelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0A814AEBEE600E3CD19 /* antsensorhelp.html */; };
+		D482C0AB14AEBF0800E3CD19 /* btlesensorhelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0AA14AEBF0800E3CD19 /* btlesensorhelp.html */; };
+		D482C0AD14AEBF3F00E3CD19 /* settingshelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0AC14AEBF3F00E3CD19 /* settingshelp.html */; };
+		D482C0AF14AEBFE700E3CD19 /* HRconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0AE14AEBFE700E3CD19 /* HRconfighelp.html */; };
+		D482C0B114AEC01600E3CD19 /* runningconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0B014AEC01500E3CD19 /* runningconfighelp.html */; };
+		D482C0B314AEC03000E3CD19 /* bikingconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0B214AEC03000E3CD19 /* bikingconfighelp.html */; };
+		D482C0B514AEC05300E3CD19 /* tempconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0B414AEC05300E3CD19 /* tempconfighelp.html */; };
+		D482C0B714AEC06C00E3CD19 /* proximityconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D482C0B614AEC06C00E3CD19 /* proximityconfighelp.html */; };
+		D4852EF114A51C550045DAFE /* BP.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852EF014A51C550045DAFE /* BP.png */; };
+		D4852EF614A51D520045DAFE /* ProximitySimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852EF314A51D520045DAFE /* ProximitySimpleViewController.m */; };
+		D4852EF714A51D520045DAFE /* TempSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852EF514A51D520045DAFE /* TempSimpleViewController.m */; };
+		D4852F0014A51D720045DAFE /* ProximitySimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852EF814A51D720045DAFE /* ProximitySimpleViewController.xib */; };
+		D4852F0114A51D720045DAFE /* ProximityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852EFA14A51D720045DAFE /* ProximityViewController.xib */; };
+		D4852F0214A51D720045DAFE /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852EFC14A51D720045DAFE /* TemperatureViewController.xib */; };
+		D4852F0314A51D720045DAFE /* TempSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852EFE14A51D720045DAFE /* TempSimpleViewController.xib */; };
+		D4852F0814A51DA00045DAFE /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F0514A51DA00045DAFE /* ProximityViewController.m */; };
+		D4852F0914A51DA00045DAFE /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F0714A51DA00045DAFE /* TemperatureViewController.m */; };
+		D4852F2414AB9E940045DAFE /* FILE-TRANSFER-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F2014AB9E930045DAFE /* FILE-TRANSFER-down.png */; };
+		D4852F2514AB9E940045DAFE /* FILE-TRANSFER-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F2114AB9E940045DAFE /* FILE-TRANSFER-down@2x.png */; };
+		D4852F2614AB9E940045DAFE /* FILE-TRANSFER.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F2214AB9E940045DAFE /* FILE-TRANSFER.png */; };
+		D4852F2714AB9E940045DAFE /* FILE-TRANSFER@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F2314AB9E940045DAFE /* FILE-TRANSFER@2x.png */; };
+		D4852F3614ABA33D0045DAFE /* FitDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F2D14ABA33D0045DAFE /* FitDeviceViewController.m */; };
+		D4852F3714ABA33D0045DAFE /* FitDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852F2E14ABA33D0045DAFE /* FitDeviceViewController.xib */; };
+		D4852F3814ABA33D0045DAFE /* FitFileTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F3014ABA33D0045DAFE /* FitFileTableView.m */; };
+		D4852F3914ABA33D0045DAFE /* FitFileTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4852F3114ABA33D0045DAFE /* FitFileTableView.xib */; };
+		D4852F3A14ABA33D0045DAFE /* WFFitDirectoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F3314ABA33D0045DAFE /* WFFitDirectoryEntry.m */; };
+		D4852F3D14ABA53D0045DAFE /* WFFitWatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4852F3C14ABA53C0045DAFE /* WFFitWatchManager.m */; };
+		D4852F4614ABC4A20045DAFE /* 60pairfisica.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F3E14ABC49F0045DAFE /* 60pairfisica.png */; };
+		D4852F4714ABC4A20045DAFE /* 60pairfisica@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F3F14ABC49F0045DAFE /* 60pairfisica@2x.png */; };
+		D4852F4814ABC4A20045DAFE /* 310XTpairfisica.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4014ABC49F0045DAFE /* 310XTpairfisica.png */; };
+		D4852F4914ABC4A20045DAFE /* 310XTpairfisica@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4114ABC4A00045DAFE /* 310XTpairfisica@2x.png */; };
+		D4852F4A14ABC4A20045DAFE /* 310XTsearchfisica.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4214ABC4A00045DAFE /* 310XTsearchfisica.png */; };
+		D4852F4B14ABC4A20045DAFE /* 310XTsearchfisica@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4314ABC4A10045DAFE /* 310XTsearchfisica@2x.png */; };
+		D4852F4C14ABC4A20045DAFE /* 610pairfisica.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4414ABC4A10045DAFE /* 610pairfisica.png */; };
+		D4852F4D14ABC4A20045DAFE /* 610pairfisica@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4852F4514ABC4A10045DAFE /* 610pairfisica@2x.png */; };
+		D4852F5114ABCD730045DAFE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4852F5014ABCD710045DAFE /* MessageUI.framework */; };
+		D48C472E14B81569009DDFF5 /* wahoo.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C472C14B81569009DDFF5 /* wahoo.png */; };
+		D48C472F14B81569009DDFF5 /* wahoo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C472D14B81569009DDFF5 /* wahoo@2x.png */; };
+		D48C473214B8186B009DDFF5 /* wtbphelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D48C473114B8186B009DDFF5 /* wtbphelp.html */; };
+		D491330A149EF03600A937F4 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4913308149EF02F00A937F4 /* HelpViewController.m */; };
+		D491330B149EF03600A937F4 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4913309149EF03400A937F4 /* HelpViewController.xib */; };
+		D4913319149F00E200A937F4 /* DDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D4913314149F00E200A937F4 /* DDPageControl.m */; };
+		D498341B1492747600EBC872 /* HeartrateSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49834191492747600EBC872 /* HeartrateSimpleViewController.m */; };
+		D498341F1492823400EBC872 /* ANT+-LOGO-white.png in Resources */ = {isa = PBXBuildFile; fileRef = D498341D1492823400EBC872 /* ANT+-LOGO-white.png */; };
+		D49834201492823400EBC872 /* BLUETOOTH-SMART-LOGO-white.png in Resources */ = {isa = PBXBuildFile; fileRef = D498341E1492823400EBC872 /* BLUETOOTH-SMART-LOGO-white.png */; };
+		D4983426149282A400EBC872 /* 1-BAR.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983421149282A400EBC872 /* 1-BAR.png */; };
+		D4983427149282A400EBC872 /* 2-BARS.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983422149282A400EBC872 /* 2-BARS.png */; };
+		D4983428149282A400EBC872 /* 3-BARS.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983423149282A400EBC872 /* 3-BARS.png */; };
+		D4983429149282A400EBC872 /* NO-BARS.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983424149282A400EBC872 /* NO-BARS.png */; };
+		D498342A149282A400EBC872 /* NO-CONNECTION.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983425149282A400EBC872 /* NO-CONNECTION.png */; };
+		D4983430149282B800EBC872 /* 0-BARS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498342B149282B800EBC872 /* 0-BARS@2x.png */; };
+		D4983431149282B800EBC872 /* 1-BAR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498342C149282B800EBC872 /* 1-BAR@2x.png */; };
+		D4983432149282B800EBC872 /* 2-BARS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498342D149282B800EBC872 /* 2-BARS@2x.png */; };
+		D4983433149282B800EBC872 /* 3-BARS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498342E149282B800EBC872 /* 3-BARS@2x.png */; };
+		D4983434149282B800EBC872 /* NO-CONNECTION@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498342F149282B800EBC872 /* NO-CONNECTION@2x.png */; };
+		D4983437149282CC00EBC872 /* ANT+-LOGO-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983435149282CC00EBC872 /* ANT+-LOGO-white@2x.png */; };
+		D4983438149282CC00EBC872 /* BLUETOOTH-SMART-LOGO-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4983436149282CC00EBC872 /* BLUETOOTH-SMART-LOGO-white@2x.png */; };
+		D4983442149292AC00EBC872 /* NSSensorSimpleBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4983441149292AC00EBC872 /* NSSensorSimpleBaseVC.m */; };
+		D49834491493192300EBC872 /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D49834481493192300EBC872 /* navigationBarBackButton.png */; };
+		D49834511493E97100EBC872 /* ConfigScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498344F1493E97000EBC872 /* ConfigScrollerController.m */; };
+		D49834521493E97100EBC872 /* ConfigScrollerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49834501493E97000EBC872 /* ConfigScrollerController.xib */; };
+		D49834591494697000EBC872 /* HeartrateSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49834571494697000EBC872 /* HeartrateSimpleViewController.xib */; };
+		D4AF432A14B37F6900D9DF92 /* HistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF432914B37F6900D9DF92 /* HistoryManager.m */; };
+		D4AF433914B3838E00D9DF92 /* BloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF432C14B3838B00D9DF92 /* BloodPressureViewController.m */; };
+		D4AF433A14B3838E00D9DF92 /* BloodPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AF432D14B3838B00D9DF92 /* BloodPressureViewController.xib */; };
+		D4AF433B14B3838E00D9DF92 /* BPHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF432F14B3838C00D9DF92 /* BPHistoryViewController.m */; };
+		D4AF433C14B3838E00D9DF92 /* BPHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AF433014B3838C00D9DF92 /* BPHistoryViewController.xib */; };
+		D4AF433D14B3838E00D9DF92 /* WeightHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF433214B3838D00D9DF92 /* WeightHistoryViewController.m */; };
+		D4AF433E14B3838E00D9DF92 /* WeightHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AF433314B3838D00D9DF92 /* WeightHistoryViewController.xib */; };
+		D4AF433F14B3838E00D9DF92 /* WeightScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF433514B3838D00D9DF92 /* WeightScaleViewController.m */; };
+		D4AF434014B3838E00D9DF92 /* WeightScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AF433614B3838D00D9DF92 /* WeightScaleViewController.xib */; };
+		D4AF434114B3838E00D9DF92 /* WFFSSensorVCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AF433814B3838E00D9DF92 /* WFFSSensorVCBase.m */; };
+		D4AF434914B38E4800D9DF92 /* fs-sensor-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4AF434814B38E4800D9DF92 /* fs-sensor-info.plist */; };
+		D4B56C35148E7AF700FFE251 /* root_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B56C33148E7AF700FFE251 /* root_bg.png */; };
+		D4B56C36148E7AF700FFE251 /* root_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B56C34148E7AF700FFE251 /* root_bg@2x.png */; };
+		D4B56C3A148EA12C00FFE251 /* DTCustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B56C39148EA12C00FFE251 /* DTCustomColoredAccessory.m */; };
+		D4B8FA0714F55B5E00E16B2A /* BGM-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8F9FF14F55B5E00E16B2A /* BGM-down.png */; };
+		D4B8FA0814F55B5E00E16B2A /* BGM-down@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0014F55B5E00E16B2A /* BGM-down@2x.PNG */; };
+		D4B8FA0914F55B5E00E16B2A /* BGM.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0114F55B5E00E16B2A /* BGM.PNG */; };
+		D4B8FA0A14F55B5E00E16B2A /* BGM@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0214F55B5E00E16B2A /* BGM@2x.PNG */; };
+		D4B8FA0B14F55B5E00E16B2A /* CGM-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0314F55B5E00E16B2A /* CGM-down.png */; };
+		D4B8FA0C14F55B5E00E16B2A /* CGM-down@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0414F55B5E00E16B2A /* CGM-down@2x.PNG */; };
+		D4B8FA0D14F55B5E00E16B2A /* CGM.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0514F55B5E00E16B2A /* CGM.PNG */; };
+		D4B8FA0E14F55B5E00E16B2A /* CGM@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA0614F55B5E00E16B2A /* CGM@2x.PNG */; };
+		D4B8FA1514F580F900E16B2A /* BTBloodPressureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FA1314F580F900E16B2A /* BTBloodPressureVC.m */; };
+		D4B8FA1614F580F900E16B2A /* BTBloodPressureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA1414F580F900E16B2A /* BTBloodPressureVC.xib */; };
+		D4B8FA1A14F58D2D00E16B2A /* BTBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FA1814F58D2B00E16B2A /* BTBloodPressureViewController.m */; };
+		D4B8FA1B14F58D2D00E16B2A /* BTBloodPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B8FA1914F58D2C00E16B2A /* BTBloodPressureViewController.xib */; };
+		D4C6333B14FBDBD8007F8CE5 /* below55.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333514FBDBD8007F8CE5 /* below55.png */; };
+		D4C6333C14FBDBD8007F8CE5 /* below55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333614FBDBD8007F8CE5 /* below55@2x.png */; };
+		D4C6333D14FBDBD8007F8CE5 /* rapidDownArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333714FBDBD8007F8CE5 /* rapidDownArrowWhite.png */; };
+		D4C6333E14FBDBD8007F8CE5 /* rapidDownArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333814FBDBD8007F8CE5 /* rapidDownArrowWhite@2x.png */; };
+		D4C6333F14FBDBD8007F8CE5 /* rapidUpArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333914FBDBD8007F8CE5 /* rapidUpArrowWhite.png */; };
+		D4C6334014FBDBD8007F8CE5 /* rapidUpArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C6333A14FBDBD8007F8CE5 /* rapidUpArrowWhite@2x.png */; };
+		D4C6334614FBE876007F8CE5 /* sounds-no-trespassing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4C6334214FBE876007F8CE5 /* sounds-no-trespassing.mp3 */; };
+		D4C6334714FBE876007F8CE5 /* sounds-solemn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4C6334314FBE876007F8CE5 /* sounds-solemn.mp3 */; };
+		D4C6334814FBE876007F8CE5 /* sounds-squeaky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4C6334414FBE876007F8CE5 /* sounds-squeaky.mp3 */; };
+		D4C6334914FBE876007F8CE5 /* sounds-sucked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4C6334514FBE876007F8CE5 /* sounds-sucked.mp3 */; };
+		D4C79E651540B04000BD9C46 /* antbphelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D4C79E601540B04000BD9C46 /* antbphelp.html */; };
+		D4C79E661540B04000BD9C46 /* antsensorinfohelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D4C79E611540B04000BD9C46 /* antsensorinfohelp.html */; };
+		D4C79E671540B04000BD9C46 /* antwshelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D4C79E621540B04000BD9C46 /* antwshelp.html */; };
+		D4C79E681540B04000BD9C46 /* btlesensorinfohelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D4C79E631540B04000BD9C46 /* btlesensorinfohelp.html */; };
+		D4C79E691540B04000BD9C46 /* wsconfighelp.html in Resources */ = {isa = PBXBuildFile; fileRef = D4C79E641540B04000BD9C46 /* wsconfighelp.html */; };
+		D4D42D4B15375EBF0001BDB3 /* OdometerHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D42D4A15375EBE0001BDB3 /* OdometerHistoryVC.m */; };
+		D4D42D4D15375ED70001BDB3 /* OdometerHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D42D4C15375ED70001BDB3 /* OdometerHistoryVC.xib */; };
+		D4EF410C149D3F42008641AC /* ConfigAndHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF410B149D3F42008641AC /* ConfigAndHelpView.m */; };
+		D4EF410F149D3F83008641AC /* ConfigAndHelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4EF410E149D3F83008641AC /* ConfigAndHelpView.xib */; };
+		EC4792771455B9BA002DF15C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4792761455B9BA002DF15C /* AudioToolbox.framework */; };
+		ECE853271451854F00C59323 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE853261451854F00C59323 /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		935E0C6615540748003DF889 /* ANT+-and-ANT-n-Suunto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-and-ANT-n-Suunto.png"; sourceTree = "<group>"; };
+		935E0C6715540748003DF889 /* ANT+-and-ANT-n-Suunto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-and-ANT-n-Suunto@2x.png"; sourceTree = "<group>"; };
+		938CA6731677BBFD0077F96F /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		938CA6741677BBFD0077F96F /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		938CA6771677BD290077F96F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		938CA6791677BDFE0077F96F /* alarm-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "alarm-sound.wav"; path = "../alarm-sound.wav"; sourceTree = "<group>"; };
+		9390408E16809CE700AC8E99 /* SILENCE-TAG-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SILENCE-TAG-down.png"; sourceTree = "<group>"; };
+		9390408F16809CE700AC8E99 /* SILENCE-TAG-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SILENCE-TAG-down@2x.png"; sourceTree = "<group>"; };
+		9390409016809CE700AC8E99 /* SILENCE-TAG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SILENCE-TAG.png"; sourceTree = "<group>"; };
+		9390409116809CE700AC8E99 /* SILENCE-TAG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SILENCE-TAG@2x.png"; sourceTree = "<group>"; };
+		AB0A04C6140FF08100A8A19B /* NordicSemiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordicSemiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0A04CA140FF08100A8A19B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB0A04CC140FF08100A8A19B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB0A04CE140FF08100A8A19B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB0A04D2140FF08100A8A19B /* NordicSemiDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NordicSemiDemo-Info.plist"; sourceTree = "<group>"; };
+		AB0A04D4140FF08100A8A19B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB0A04D6140FF08100A8A19B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB0A04D8140FF08100A8A19B /* NordicSemiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NordicSemiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB0A04D9140FF08100A8A19B /* NordicSemiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NordicSemiAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AB0A04DA140FF08100A8A19B /* NordicSemiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NordicSemiAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AB0A04DD140FF08100A8A19B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB0A04DF140FF08100A8A19B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AB0A04E0140FF08100A8A19B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AB0A04E3140FF08100A8A19B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		AB0A04F2140FF5BE00A8A19B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB0A04F3140FF5BE00A8A19B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB0A04F4140FF5BE00A8A19B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AB0A04F5140FF5BE00A8A19B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		AB6D215A1425202100EB6F27 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AB72717A14E60CCE0046A6C2 /* 0-BARS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-BARS.png"; sourceTree = "<group>"; };
+		AB9CD015146DAB00002EEAA3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AB9CD016146DAB00002EEAA3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AB9CD017146DAB00002EEAA3 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		ABA69D241416DC0800B5AA13 /* AntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntViewController.h; sourceTree = "<group>"; };
+		ABA69D251416DC0800B5AA13 /* AntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntViewController.m; sourceTree = "<group>"; };
+		ABA69D261416DC0800B5AA13 /* CommandChooserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandChooserController.h; sourceTree = "<group>"; };
+		ABA69D271416DC0800B5AA13 /* CommandChooserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandChooserController.m; sourceTree = "<group>"; };
+		ABA69D291416DC0900B5AA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AntViewController.xib; sourceTree = "<group>"; };
+		ABA69D2B1416DC0900B5AA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CommandChooserController.xib; sourceTree = "<group>"; };
+		ABE92516141014E40061D3D3 /* SensorInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SensorInfo.plist; sourceTree = "<group>"; };
+		ABE92545141021A30061D3D3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		ABE92547141021CB0061D3D3 /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WFConnector.framework; path = ../dependencies/WFConnector.framework; sourceTree = "<group>"; };
+		ABF26992141035930013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HeartrateViewController.xib; sourceTree = "<group>"; };
+		ABF26993141035930013B3B1 /* HeartrateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartrateViewController.h; sourceTree = "<group>"; };
+		ABF26994141035930013B3B1 /* HeartrateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartrateViewController.m; sourceTree = "<group>"; };
+		ABF26995141035930013B3B1 /* WFSensorCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFSensorCommonViewController.h; sourceTree = "<group>"; };
+		ABF26996141035930013B3B1 /* WFSensorCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFSensorCommonViewController.m; sourceTree = "<group>"; };
+		ABF2699C141036D50013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SensorManagerViewController.xib; sourceTree = "<group>"; };
+		ABF2699D141036D50013B3B1 /* SensorManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorManagerViewController.h; sourceTree = "<group>"; };
+		ABF2699E141036D50013B3B1 /* SensorManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorManagerViewController.m; sourceTree = "<group>"; };
+		ABF269B414104FCA0013B3B1 /* BikeSpeedCadenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeSpeedCadenceViewController.h; sourceTree = "<group>"; };
+		ABF269B514104FCA0013B3B1 /* BikeSpeedCadenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeSpeedCadenceViewController.m; sourceTree = "<group>"; };
+		ABF269B714104FCA0013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikeSpeedCadenceViewController.xib; sourceTree = "<group>"; };
+		ABF269BA141059FD0013B3B1 /* BikeSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeSpeedViewController.h; sourceTree = "<group>"; };
+		ABF269BB141059FD0013B3B1 /* BikeSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeSpeedViewController.m; sourceTree = "<group>"; };
+		ABF269BD141059FD0013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikeSpeedViewController.xib; sourceTree = "<group>"; };
+		ABF269C014105CB90013B3B1 /* BikeCadenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeCadenceViewController.h; sourceTree = "<group>"; };
+		ABF269C114105CB90013B3B1 /* BikeCadenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeCadenceViewController.m; sourceTree = "<group>"; };
+		ABF269C314105CB90013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikeCadenceViewController.xib; sourceTree = "<group>"; };
+		ABF269C614105E120013B3B1 /* BikePowerCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikePowerCalibration.h; sourceTree = "<group>"; };
+		ABF269C714105E120013B3B1 /* BikePowerCalibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikePowerCalibration.m; sourceTree = "<group>"; };
+		ABF269C814105E130013B3B1 /* BikePowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikePowerViewController.h; sourceTree = "<group>"; };
+		ABF269C914105E130013B3B1 /* BikePowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikePowerViewController.m; sourceTree = "<group>"; };
+		ABF269CB14105E130013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikePowerCalibration.xib; sourceTree = "<group>"; };
+		ABF269CD14105E130013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikePowerViewController.xib; sourceTree = "<group>"; };
+		ABF269D3141060730013B3B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FootpodViewController.xib; sourceTree = "<group>"; };
+		ABF269D4141060730013B3B1 /* FootpodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootpodViewController.h; sourceTree = "<group>"; };
+		ABF269D5141060730013B3B1 /* FootpodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootpodViewController.m; sourceTree = "<group>"; };
+		D405113A1496D2B1004F1B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RunningViewController.xib; sourceTree = "<group>"; };
+		D405113C1496D2C4004F1B01 /* RunningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunningViewController.h; path = "Sensor Views/RunningViewController.h"; sourceTree = "<group>"; };
+		D405113D1496D2C4004F1B01 /* RunningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunningViewController.m; path = "Sensor Views/RunningViewController.m"; sourceTree = "<group>"; };
+		D41B666D14F6A5A300E5A530 /* Battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Battery.png; sourceTree = "<group>"; };
+		D41B666E14F6A5A300E5A530 /* Battery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Battery@2x.png"; sourceTree = "<group>"; };
+		D41B667114F6A68300E5A530 /* bgmconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bgmconfighelp.html; path = help/bgmconfighelp.html; sourceTree = "<group>"; };
+		D41B667214F6A68300E5A530 /* btlebikingconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = btlebikingconfighelp.html; path = help/btlebikingconfighelp.html; sourceTree = "<group>"; };
+		D41B667314F6A68300E5A530 /* btlebpconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = btlebpconfighelp.html; path = help/btlebpconfighelp.html; sourceTree = "<group>"; };
+		D41B667414F6A68300E5A530 /* cgmconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = cgmconfighelp.html; path = help/cgmconfighelp.html; sourceTree = "<group>"; };
+		D41D413E150A6C0300F081F8 /* ANTDeviceInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTDeviceInfoVC.h; sourceTree = "<group>"; };
+		D41D413F150A6C0300F081F8 /* ANTDeviceInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTDeviceInfoVC.m; sourceTree = "<group>"; };
+		D41D4142150A6C1A00F081F8 /* BTDeviceInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDeviceInfoVC.h; sourceTree = "<group>"; };
+		D41D4143150A6C1A00F081F8 /* BTDeviceInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDeviceInfoVC.m; sourceTree = "<group>"; };
+		D41D4146150A6C6400F081F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANTDeviceInfoVC.xib; sourceTree = "<group>"; };
+		D41D4148150A6C6400F081F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTDeviceInfoVC.xib; sourceTree = "<group>"; };
+		D41E92B31497182A00456989 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTLESensorsViewController.xib; sourceTree = "<group>"; };
+		D41E92B61497183400456989 /* BTLESensorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLESensorsViewController.h; sourceTree = "<group>"; };
+		D41E92B71497183400456989 /* BTLESensorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLESensorsViewController.m; sourceTree = "<group>"; };
+		D41E92BF1497B9ED00456989 /* BikingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikingViewController.h; path = "Sensor Views/BikingViewController.h"; sourceTree = "<group>"; };
+		D41E92C01497B9ED00456989 /* BikingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikingViewController.m; path = "Sensor Views/BikingViewController.m"; sourceTree = "<group>"; };
+		D41E92C41497B9F900456989 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BikingViewController.xib; sourceTree = "<group>"; };
+		D424B49B1490723E004B1F0F /* AntSensorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntSensorsViewController.h; sourceTree = "<group>"; };
+		D424B49C1490723E004B1F0F /* AntSensorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AntSensorsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D424B49D1490723E004B1F0F /* AntSensorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AntSensorsViewController.xib; path = en.lproj/AntSensorsViewController.xib; sourceTree = "<group>"; };
+		D424B4A1149072E1004B1F0F /* Background-gradient-plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-gradient-plain.png"; sourceTree = "<group>"; };
+		D424B4A314907300004B1F0F /* Background-gradient-plain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-gradient-plain@2x.png"; sourceTree = "<group>"; };
+		D424B4A5149073A6004B1F0F /* ANT+-BLACK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-BLACK@2x.png"; sourceTree = "<group>"; };
+		D424B4A7149073C5004B1F0F /* ANT+-BLACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-BLACK.png"; sourceTree = "<group>"; };
+		D424B4A914907474004B1F0F /* BACK-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK-down.png"; sourceTree = "<group>"; };
+		D424B4AA14907474004B1F0F /* BACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BACK.png; sourceTree = "<group>"; };
+		D424B4AB14907474004B1F0F /* BIKING-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BIKING-down.png"; sourceTree = "<group>"; };
+		D424B4AC14907474004B1F0F /* BIKING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BIKING.png; sourceTree = "<group>"; };
+		D424B4AD14907474004B1F0F /* BP-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BP-down.png"; sourceTree = "<group>"; };
+		D424B4AE14907474004B1F0F /* CONFIGURE-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONFIGURE-down.png"; sourceTree = "<group>"; };
+		D424B4AF14907474004B1F0F /* CONFIGURE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CONFIGURE.png; sourceTree = "<group>"; };
+		D424B4B014907474004B1F0F /* CONNECT-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONNECT-down.png"; sourceTree = "<group>"; };
+		D424B4B114907474004B1F0F /* CONNECT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CONNECT.png; sourceTree = "<group>"; };
+		D424B4B214907474004B1F0F /* DISCONNECT-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DISCONNECT-down.png"; sourceTree = "<group>"; };
+		D424B4B314907475004B1F0F /* DISCONNECT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DISCONNECT.png; sourceTree = "<group>"; };
+		D424B4B414907475004B1F0F /* FIND-MY-TAG-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FIND-MY-TAG-down.png"; sourceTree = "<group>"; };
+		D424B4B514907475004B1F0F /* FIND-MY-TAG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FIND-MY-TAG.png"; sourceTree = "<group>"; };
+		D424B4B614907475004B1F0F /* HELP-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HELP-down.png"; sourceTree = "<group>"; };
+		D424B4B714907475004B1F0F /* HELP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HELP.png; sourceTree = "<group>"; };
+		D424B4B814907475004B1F0F /* HRM-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HRM-down.png"; sourceTree = "<group>"; };
+		D424B4B914907475004B1F0F /* HRM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HRM.png; sourceTree = "<group>"; };
+		D424B4BA14907475004B1F0F /* MANAGE-CONNECTIONS-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MANAGE-CONNECTIONS-down.png"; sourceTree = "<group>"; };
+		D424B4BB14907475004B1F0F /* MANAGE-CONNECTIONS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MANAGE-CONNECTIONS.png"; sourceTree = "<group>"; };
+		D424B4BC14907475004B1F0F /* PROXIMITY-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROXIMITY-down.png"; sourceTree = "<group>"; };
+		D424B4BD14907475004B1F0F /* PROXIMITY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PROXIMITY.png; sourceTree = "<group>"; };
+		D424B4BE14907475004B1F0F /* RUNNING-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RUNNING-down.png"; sourceTree = "<group>"; };
+		D424B4BF14907475004B1F0F /* RUNNING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RUNNING.png; sourceTree = "<group>"; };
+		D424B4C014907475004B1F0F /* TEMP-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TEMP-down.png"; sourceTree = "<group>"; };
+		D424B4C114907476004B1F0F /* TEMP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEMP.png; sourceTree = "<group>"; };
+		D424B4C214907476004B1F0F /* WEIGHT-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WEIGHT-down.png"; sourceTree = "<group>"; };
+		D424B4C314907476004B1F0F /* WEIGHT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WEIGHT.png; sourceTree = "<group>"; };
+		D424B4DF149074BE004B1F0F /* BLUETOOTH-SMART-LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLUETOOTH-SMART-LOGO.png"; sourceTree = "<group>"; };
+		D424B4E0149074BE004B1F0F /* BOX-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOX-blue.png"; sourceTree = "<group>"; };
+		D424B4E1149074BE004B1F0F /* BOX-CONFIG-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOX-CONFIG-blue.png"; sourceTree = "<group>"; };
+		D424B4E2149074BE004B1F0F /* NORDIC-LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NORDIC-LOGO.png"; sourceTree = "<group>"; };
+		D424B4E714907672004B1F0F /* BACK-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK-down@2x.png"; sourceTree = "<group>"; };
+		D424B4E814907672004B1F0F /* BACK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK@2x.png"; sourceTree = "<group>"; };
+		D424B4E914907672004B1F0F /* BIKING-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BIKING-down@2x.png"; sourceTree = "<group>"; };
+		D424B4EA14907672004B1F0F /* BIKING@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BIKING@2x.png"; sourceTree = "<group>"; };
+		D424B4EB14907672004B1F0F /* BLUETOOTH-SMART-LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLUETOOTH-SMART-LOGO@2x.png"; sourceTree = "<group>"; };
+		D424B4EC14907673004B1F0F /* BOX-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOX-blue@2x.png"; sourceTree = "<group>"; };
+		D424B4ED14907673004B1F0F /* BOX-CONFIG-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOX-CONFIG-blue@2x.png"; sourceTree = "<group>"; };
+		D424B4EE14907673004B1F0F /* BP-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BP-down@2x.png"; sourceTree = "<group>"; };
+		D424B4EF14907673004B1F0F /* BP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BP@2x.png"; sourceTree = "<group>"; };
+		D424B4F014907673004B1F0F /* CONFIGURE-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONFIGURE-down@2x.png"; sourceTree = "<group>"; };
+		D424B4F114907673004B1F0F /* CONFIGURE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONFIGURE@2x.png"; sourceTree = "<group>"; };
+		D424B4F214907673004B1F0F /* CONNECT-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONNECT-down@2x.png"; sourceTree = "<group>"; };
+		D424B4F314907673004B1F0F /* CONNECT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CONNECT@2x.png"; sourceTree = "<group>"; };
+		D424B4F414907673004B1F0F /* DISCONNECT-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DISCONNECT-down@2x.png"; sourceTree = "<group>"; };
+		D424B4F514907673004B1F0F /* DISCONNECT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DISCONNECT@2x.png"; sourceTree = "<group>"; };
+		D424B4F614907673004B1F0F /* FIND-MY-TAG-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FIND-MY-TAG-down@2x.png"; sourceTree = "<group>"; };
+		D424B4F714907674004B1F0F /* FIND-MY-TAG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FIND-MY-TAG@2x.png"; sourceTree = "<group>"; };
+		D424B4F814907674004B1F0F /* HELP-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HELP-down@2x.png"; sourceTree = "<group>"; };
+		D424B4F914907674004B1F0F /* HELP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HELP@2x.png"; sourceTree = "<group>"; };
+		D424B4FA14907674004B1F0F /* HRM-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HRM-down@2x.png"; sourceTree = "<group>"; };
+		D424B4FB14907674004B1F0F /* HRM@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HRM@2x.png"; sourceTree = "<group>"; };
+		D424B4FC14907674004B1F0F /* MANAGE-CONNECTIONS-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MANAGE-CONNECTIONS-down@2x.png"; sourceTree = "<group>"; };
+		D424B4FD14907674004B1F0F /* MANAGE-CONNECTIONS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MANAGE-CONNECTIONS@2x.png"; sourceTree = "<group>"; };
+		D424B4FE14907674004B1F0F /* NORDIC-LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NORDIC-LOGO@2x.png"; sourceTree = "<group>"; };
+		D424B4FF14907674004B1F0F /* PADLOCK-OPEN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PADLOCK-OPEN@2x.png"; sourceTree = "<group>"; };
+		D424B50014907674004B1F0F /* PADLOCK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PADLOCK@2x.png"; sourceTree = "<group>"; };
+		D424B50114907674004B1F0F /* PROXIMITY-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROXIMITY-down@2x.png"; sourceTree = "<group>"; };
+		D424B50214907674004B1F0F /* PROXIMITY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROXIMITY@2x.png"; sourceTree = "<group>"; };
+		D424B50314907674004B1F0F /* RUNNING-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RUNNING-down@2x.png"; sourceTree = "<group>"; };
+		D424B50414907674004B1F0F /* RUNNING@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RUNNING@2x.png"; sourceTree = "<group>"; };
+		D424B50514907675004B1F0F /* TEMP-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TEMP-down@2x.png"; sourceTree = "<group>"; };
+		D424B50614907675004B1F0F /* TEMP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TEMP@2x.png"; sourceTree = "<group>"; };
+		D424B50714907675004B1F0F /* WEIGHT-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WEIGHT-down@2x.png"; sourceTree = "<group>"; };
+		D424B50814907675004B1F0F /* WEIGHT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WEIGHT@2x.png"; sourceTree = "<group>"; };
+		D424B52B1490768D004B1F0F /* PADLOCK-OPEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PADLOCK-OPEN.png"; sourceTree = "<group>"; };
+		D424B52C1490768D004B1F0F /* PADLOCK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PADLOCK.png; sourceTree = "<group>"; };
+		D424B53314908159004B1F0F /* NordicNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NordicNavigationBar.h; sourceTree = "<group>"; };
+		D424B5341490815A004B1F0F /* NordicNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NordicNavigationBar.m; sourceTree = "<group>"; };
+		D424B53D1491D1D4004B1F0F /* NordicNavbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NordicNavbar.png; sourceTree = "<group>"; };
+		D424B53F1491D5E0004B1F0F /* NordicNavbarWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NordicNavbarWhite.png; sourceTree = "<group>"; };
+		D42B44C215419FF0009989F2 /* BTBPRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTBPRecord.h; path = "Other Sources/BTBPRecord.h"; sourceTree = "<group>"; };
+		D42B44C315419FF0009989F2 /* BTBPRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTBPRecord.m; path = "Other Sources/BTBPRecord.m"; sourceTree = "<group>"; };
+		D42F8B281513978300F78E62 /* constantArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = constantArrowWhite.png; sourceTree = "<group>"; };
+		D42F8B291513978300F78E62 /* constantArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "constantArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D42F8B2D1513BC4500F78E62 /* mediumDownArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediumDownArrowWhite.png; sourceTree = "<group>"; };
+		D42F8B2E1513BC4500F78E62 /* mediumDownArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mediumDownArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D42F8B2F1513BC4500F78E62 /* mediumUpArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediumUpArrowWhite.png; sourceTree = "<group>"; };
+		D42F8B301513BC4500F78E62 /* mediumUpArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mediumUpArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D42F8B351513DA7100F78E62 /* MultiConfigScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConfigScrollerController.h; sourceTree = "<group>"; };
+		D42F8B361513DA7100F78E62 /* MultiConfigScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiConfigScrollerController.m; sourceTree = "<group>"; };
+		D42F8B371513DA7100F78E62 /* MultiConfigScrollerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiConfigScrollerController.xib; sourceTree = "<group>"; };
+		D42F8B3A1513DCC100F78E62 /* GlucoseVCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoseVCSettings.h; sourceTree = "<group>"; };
+		D42F8B3B1513DCC100F78E62 /* GlucoseVCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseVCSettings.m; sourceTree = "<group>"; };
+		D42F8B3C1513DCC100F78E62 /* GlucoseVCSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlucoseVCSettings.xib; sourceTree = "<group>"; };
+		D4333FE814F6CAAB00902A40 /* BTGlucoseDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGlucoseDetailVC.h; sourceTree = "<group>"; };
+		D4333FE914F6CAAB00902A40 /* BTGlucoseDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGlucoseDetailVC.m; sourceTree = "<group>"; };
+		D4333FEA14F6CAAB00902A40 /* BTGlucoseDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGlucoseDetailVC.xib; sourceTree = "<group>"; };
+		D4333FEB14F6CAAB00902A40 /* BTGlucoseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGlucoseVC.h; sourceTree = "<group>"; };
+		D4333FEC14F6CAAB00902A40 /* BTGlucoseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGlucoseVC.m; sourceTree = "<group>"; };
+		D4333FED14F6CAAC00902A40 /* BTGlucoseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGlucoseVC.xib; sourceTree = "<group>"; };
+		D4333FF414F73CE800902A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BGMViewController.xib; sourceTree = "<group>"; };
+		D4333FF614F73D0100902A40 /* BGMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGMViewController.h; path = "Sensor Views/BGMViewController.h"; sourceTree = "<group>"; };
+		D4333FF714F73D0200902A40 /* BGMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGMViewController.m; path = "Sensor Views/BGMViewController.m"; sourceTree = "<group>"; };
+		D433400314F9471C00902A40 /* GlucoseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoseVC.h; sourceTree = "<group>"; };
+		D433400414F9471D00902A40 /* GlucoseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseVC.m; sourceTree = "<group>"; };
+		D433400514F9471E00902A40 /* GlucoseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlucoseVC.xib; sourceTree = "<group>"; };
+		D433400D14F952A900902A40 /* cgmsettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cgmsettings.plist; sourceTree = "<group>"; };
+		D433400F14F9649100902A40 /* CGMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGMViewController.h; path = "Sensor Views/CGMViewController.h"; sourceTree = "<group>"; };
+		D433401014F9649200902A40 /* CGMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGMViewController.m; path = "Sensor Views/CGMViewController.m"; sourceTree = "<group>"; };
+		D433401314F964B000902A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGMViewController.xib; sourceTree = "<group>"; };
+		D433401514F97F0900902A40 /* downArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrowWhite.png; sourceTree = "<group>"; };
+		D433401614F97F0900902A40 /* downArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "downArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D433401714F97F0900902A40 /* upArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrowWhite.png; sourceTree = "<group>"; };
+		D433401814F97F0900902A40 /* upArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D433402E14F9D77A00902A40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D433409114F9EC2B00902A40 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "../dependencies/libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		D43340A214FAA97700902A40 /* dashedline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashedline.png; sourceTree = "<group>"; };
+		D43340A314FAA97700902A40 /* dashedline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashedline@2x.png"; sourceTree = "<group>"; };
+		D43882B3153C73FE00D253DC /* WeightScaleConfController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightScaleConfController.h; sourceTree = "<group>"; };
+		D43882B4153C73FE00D253DC /* WeightScaleConfController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightScaleConfController.m; sourceTree = "<group>"; };
+		D43882B8153C741A00D253DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WeightScaleConfController.xib; sourceTree = "<group>"; };
+		D482C0A414AEBE3500E3CD19 /* anthelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = anthelp.html; path = help/anthelp.html; sourceTree = "<group>"; };
+		D482C0A614AEBE6A00E3CD19 /* btlehelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = btlehelp.html; path = help/btlehelp.html; sourceTree = "<group>"; };
+		D482C0A814AEBEE600E3CD19 /* antsensorhelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = antsensorhelp.html; path = help/antsensorhelp.html; sourceTree = "<group>"; };
+		D482C0AA14AEBF0800E3CD19 /* btlesensorhelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = btlesensorhelp.html; path = help/btlesensorhelp.html; sourceTree = "<group>"; };
+		D482C0AC14AEBF3F00E3CD19 /* settingshelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settingshelp.html; path = help/settingshelp.html; sourceTree = "<group>"; };
+		D482C0AE14AEBFE700E3CD19 /* HRconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = HRconfighelp.html; path = help/HRconfighelp.html; sourceTree = "<group>"; };
+		D482C0B014AEC01500E3CD19 /* runningconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = runningconfighelp.html; path = help/runningconfighelp.html; sourceTree = "<group>"; };
+		D482C0B214AEC03000E3CD19 /* bikingconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bikingconfighelp.html; path = help/bikingconfighelp.html; sourceTree = "<group>"; };
+		D482C0B414AEC05300E3CD19 /* tempconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = tempconfighelp.html; path = help/tempconfighelp.html; sourceTree = "<group>"; };
+		D482C0B614AEC06C00E3CD19 /* proximityconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = proximityconfighelp.html; path = help/proximityconfighelp.html; sourceTree = "<group>"; };
+		D4852EF014A51C550045DAFE /* BP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BP.png; sourceTree = "<group>"; };
+		D4852EF214A51D520045DAFE /* ProximitySimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProximitySimpleViewController.h; path = "Sensor Views/ProximitySimpleViewController.h"; sourceTree = "<group>"; };
+		D4852EF314A51D520045DAFE /* ProximitySimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProximitySimpleViewController.m; path = "Sensor Views/ProximitySimpleViewController.m"; sourceTree = "<group>"; };
+		D4852EF414A51D520045DAFE /* TempSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempSimpleViewController.h; path = "Sensor Views/TempSimpleViewController.h"; sourceTree = "<group>"; };
+		D4852EF514A51D520045DAFE /* TempSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempSimpleViewController.m; path = "Sensor Views/TempSimpleViewController.m"; sourceTree = "<group>"; };
+		D4852EF914A51D720045DAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ProximitySimpleViewController.xib; sourceTree = "<group>"; };
+		D4852EFB14A51D720045DAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ProximityViewController.xib; sourceTree = "<group>"; };
+		D4852EFD14A51D720045DAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TemperatureViewController.xib; sourceTree = "<group>"; };
+		D4852EFF14A51D720045DAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TempSimpleViewController.xib; sourceTree = "<group>"; };
+		D4852F0414A51DA00045DAFE /* ProximityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityViewController.h; sourceTree = "<group>"; };
+		D4852F0514A51DA00045DAFE /* ProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityViewController.m; sourceTree = "<group>"; };
+		D4852F0614A51DA00045DAFE /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		D4852F0714A51DA00045DAFE /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		D4852F2014AB9E930045DAFE /* FILE-TRANSFER-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FILE-TRANSFER-down.png"; sourceTree = "<group>"; };
+		D4852F2114AB9E940045DAFE /* FILE-TRANSFER-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FILE-TRANSFER-down@2x.png"; sourceTree = "<group>"; };
+		D4852F2214AB9E940045DAFE /* FILE-TRANSFER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FILE-TRANSFER.png"; sourceTree = "<group>"; };
+		D4852F2314AB9E940045DAFE /* FILE-TRANSFER@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FILE-TRANSFER@2x.png"; sourceTree = "<group>"; };
+		D4852F2C14ABA33D0045DAFE /* FitDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FitDeviceViewController.h; path = Import/FitDeviceViewController.h; sourceTree = "<group>"; };
+		D4852F2D14ABA33D0045DAFE /* FitDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FitDeviceViewController.m; path = Import/FitDeviceViewController.m; sourceTree = "<group>"; };
+		D4852F2E14ABA33D0045DAFE /* FitDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FitDeviceViewController.xib; path = Import/FitDeviceViewController.xib; sourceTree = "<group>"; };
+		D4852F2F14ABA33D0045DAFE /* FitFileTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FitFileTableView.h; path = Import/FitFileTableView.h; sourceTree = "<group>"; };
+		D4852F3014ABA33D0045DAFE /* FitFileTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FitFileTableView.m; path = Import/FitFileTableView.m; sourceTree = "<group>"; };
+		D4852F3114ABA33D0045DAFE /* FitFileTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FitFileTableView.xib; path = Import/FitFileTableView.xib; sourceTree = "<group>"; };
+		D4852F3214ABA33D0045DAFE /* WFFitDirectoryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFFitDirectoryEntry.h; path = Import/WFFitDirectoryEntry.h; sourceTree = "<group>"; };
+		D4852F3314ABA33D0045DAFE /* WFFitDirectoryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFFitDirectoryEntry.m; path = Import/WFFitDirectoryEntry.m; sourceTree = "<group>"; };
+		D4852F3B14ABA53B0045DAFE /* WFFitWatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFFitWatchManager.h; path = Import/WFFitWatchManager.h; sourceTree = "<group>"; };
+		D4852F3C14ABA53C0045DAFE /* WFFitWatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFFitWatchManager.m; path = Import/WFFitWatchManager.m; sourceTree = "<group>"; };
+		D4852F3E14ABC49F0045DAFE /* 60pairfisica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60pairfisica.png; sourceTree = "<group>"; };
+		D4852F3F14ABC49F0045DAFE /* 60pairfisica@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60pairfisica@2x.png"; sourceTree = "<group>"; };
+		D4852F4014ABC49F0045DAFE /* 310XTpairfisica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 310XTpairfisica.png; sourceTree = "<group>"; };
+		D4852F4114ABC4A00045DAFE /* 310XTpairfisica@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "310XTpairfisica@2x.png"; sourceTree = "<group>"; };
+		D4852F4214ABC4A00045DAFE /* 310XTsearchfisica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 310XTsearchfisica.png; sourceTree = "<group>"; };
+		D4852F4314ABC4A10045DAFE /* 310XTsearchfisica@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "310XTsearchfisica@2x.png"; sourceTree = "<group>"; };
+		D4852F4414ABC4A10045DAFE /* 610pairfisica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 610pairfisica.png; sourceTree = "<group>"; };
+		D4852F4514ABC4A10045DAFE /* 610pairfisica@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "610pairfisica@2x.png"; sourceTree = "<group>"; };
+		D4852F5014ABCD710045DAFE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D48C472C14B81569009DDFF5 /* wahoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wahoo.png; sourceTree = "<group>"; };
+		D48C472D14B81569009DDFF5 /* wahoo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wahoo@2x.png"; sourceTree = "<group>"; };
+		D48C473114B8186B009DDFF5 /* wtbphelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wtbphelp.html; path = help/wtbphelp.html; sourceTree = "<group>"; };
+		D4913307149EF02B00A937F4 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		D4913308149EF02F00A937F4 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		D4913309149EF03400A937F4 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		D4913313149F00E200A937F4 /* DDPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDPageControl.h; path = "Other Sources/DDPageControl.h"; sourceTree = "<group>"; };
+		D4913314149F00E200A937F4 /* DDPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDPageControl.m; path = "Other Sources/DDPageControl.m"; sourceTree = "<group>"; };
+		D49834181492747600EBC872 /* HeartrateSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = HeartrateSimpleViewController.h; path = "Sensor Views/HeartrateSimpleViewController.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D49834191492747600EBC872 /* HeartrateSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = HeartrateSimpleViewController.m; path = "Sensor Views/HeartrateSimpleViewController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D498341D1492823400EBC872 /* ANT+-LOGO-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-LOGO-white.png"; sourceTree = "<group>"; };
+		D498341E1492823400EBC872 /* BLUETOOTH-SMART-LOGO-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLUETOOTH-SMART-LOGO-white.png"; sourceTree = "<group>"; };
+		D4983421149282A400EBC872 /* 1-BAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-BAR.png"; sourceTree = "<group>"; };
+		D4983422149282A400EBC872 /* 2-BARS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-BARS.png"; sourceTree = "<group>"; };
+		D4983423149282A400EBC872 /* 3-BARS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-BARS.png"; sourceTree = "<group>"; };
+		D4983424149282A400EBC872 /* NO-BARS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NO-BARS.png"; sourceTree = "<group>"; };
+		D4983425149282A400EBC872 /* NO-CONNECTION.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NO-CONNECTION.png"; sourceTree = "<group>"; };
+		D498342B149282B800EBC872 /* 0-BARS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-BARS@2x.png"; sourceTree = "<group>"; };
+		D498342C149282B800EBC872 /* 1-BAR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-BAR@2x.png"; sourceTree = "<group>"; };
+		D498342D149282B800EBC872 /* 2-BARS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-BARS@2x.png"; sourceTree = "<group>"; };
+		D498342E149282B800EBC872 /* 3-BARS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-BARS@2x.png"; sourceTree = "<group>"; };
+		D498342F149282B800EBC872 /* NO-CONNECTION@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NO-CONNECTION@2x.png"; sourceTree = "<group>"; };
+		D4983435149282CC00EBC872 /* ANT+-LOGO-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANT+-LOGO-white@2x.png"; sourceTree = "<group>"; };
+		D4983436149282CC00EBC872 /* BLUETOOTH-SMART-LOGO-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLUETOOTH-SMART-LOGO-white@2x.png"; sourceTree = "<group>"; };
+		D4983440149292AB00EBC872 /* NSSensorSimpleBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSSensorSimpleBaseVC.h; path = "Sensor Views/NSSensorSimpleBaseVC.h"; sourceTree = "<group>"; };
+		D4983441149292AC00EBC872 /* NSSensorSimpleBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSensorSimpleBaseVC.m; path = "Sensor Views/NSSensorSimpleBaseVC.m"; sourceTree = "<group>"; };
+		D49834481493192300EBC872 /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
+		D498344E1493E97000EBC872 /* ConfigScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigScrollerController.h; sourceTree = "<group>"; };
+		D498344F1493E97000EBC872 /* ConfigScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigScrollerController.m; sourceTree = "<group>"; };
+		D49834501493E97000EBC872 /* ConfigScrollerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigScrollerController.xib; sourceTree = "<group>"; };
+		D49834581494697000EBC872 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HeartrateSimpleViewController.xib; sourceTree = "<group>"; };
+		D4AF432814B37F6900D9DF92 /* HistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryManager.h; sourceTree = "<group>"; };
+		D4AF432914B37F6900D9DF92 /* HistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryManager.m; sourceTree = "<group>"; };
+		D4AF432B14B3838B00D9DF92 /* BloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureViewController.h; sourceTree = "<group>"; };
+		D4AF432C14B3838B00D9DF92 /* BloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureViewController.m; sourceTree = "<group>"; };
+		D4AF432D14B3838B00D9DF92 /* BloodPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodPressureViewController.xib; sourceTree = "<group>"; };
+		D4AF432E14B3838C00D9DF92 /* BPHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHistoryViewController.h; sourceTree = "<group>"; };
+		D4AF432F14B3838C00D9DF92 /* BPHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPHistoryViewController.m; sourceTree = "<group>"; };
+		D4AF433014B3838C00D9DF92 /* BPHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPHistoryViewController.xib; sourceTree = "<group>"; };
+		D4AF433114B3838C00D9DF92 /* WeightHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightHistoryViewController.h; sourceTree = "<group>"; };
+		D4AF433214B3838D00D9DF92 /* WeightHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightHistoryViewController.m; sourceTree = "<group>"; };
+		D4AF433314B3838D00D9DF92 /* WeightHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightHistoryViewController.xib; sourceTree = "<group>"; };
+		D4AF433414B3838D00D9DF92 /* WeightScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightScaleViewController.h; sourceTree = "<group>"; };
+		D4AF433514B3838D00D9DF92 /* WeightScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightScaleViewController.m; sourceTree = "<group>"; };
+		D4AF433614B3838D00D9DF92 /* WeightScaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightScaleViewController.xib; sourceTree = "<group>"; };
+		D4AF433714B3838E00D9DF92 /* WFFSSensorVCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFSSensorVCBase.h; sourceTree = "<group>"; };
+		D4AF433814B3838E00D9DF92 /* WFFSSensorVCBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFSSensorVCBase.m; sourceTree = "<group>"; };
+		D4AF434814B38E4800D9DF92 /* fs-sensor-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fs-sensor-info.plist"; sourceTree = "<group>"; };
+		D4B56C33148E7AF700FFE251 /* root_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = root_bg.png; sourceTree = "<group>"; };
+		D4B56C34148E7AF700FFE251 /* root_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_bg@2x.png"; sourceTree = "<group>"; };
+		D4B56C38148EA0DE00FFE251 /* DTCustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCustomColoredAccessory.h; path = "Other Sources/DTCustomColoredAccessory.h"; sourceTree = "<group>"; };
+		D4B56C39148EA12C00FFE251 /* DTCustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTCustomColoredAccessory.m; path = "Other Sources/DTCustomColoredAccessory.m"; sourceTree = "<group>"; };
+		D4B8F9FF14F55B5E00E16B2A /* BGM-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGM-down.png"; sourceTree = "<group>"; };
+		D4B8FA0014F55B5E00E16B2A /* BGM-down@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGM-down@2x.PNG"; sourceTree = "<group>"; };
+		D4B8FA0114F55B5E00E16B2A /* BGM.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGM.PNG; sourceTree = "<group>"; };
+		D4B8FA0214F55B5E00E16B2A /* BGM@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGM@2x.PNG"; sourceTree = "<group>"; };
+		D4B8FA0314F55B5E00E16B2A /* CGM-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CGM-down.png"; sourceTree = "<group>"; };
+		D4B8FA0414F55B5E00E16B2A /* CGM-down@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CGM-down@2x.PNG"; sourceTree = "<group>"; };
+		D4B8FA0514F55B5E00E16B2A /* CGM.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGM.PNG; sourceTree = "<group>"; };
+		D4B8FA0614F55B5E00E16B2A /* CGM@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CGM@2x.PNG"; sourceTree = "<group>"; };
+		D4B8FA1214F580F900E16B2A /* BTBloodPressureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBloodPressureVC.h; sourceTree = "<group>"; };
+		D4B8FA1314F580F900E16B2A /* BTBloodPressureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBloodPressureVC.m; sourceTree = "<group>"; };
+		D4B8FA1414F580F900E16B2A /* BTBloodPressureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTBloodPressureVC.xib; sourceTree = "<group>"; };
+		D4B8FA1714F58D2B00E16B2A /* BTBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBloodPressureViewController.h; sourceTree = "<group>"; };
+		D4B8FA1814F58D2B00E16B2A /* BTBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBloodPressureViewController.m; sourceTree = "<group>"; };
+		D4B8FA1914F58D2C00E16B2A /* BTBloodPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTBloodPressureViewController.xib; sourceTree = "<group>"; };
+		D4C6333514FBDBD8007F8CE5 /* below55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = below55.png; sourceTree = "<group>"; };
+		D4C6333614FBDBD8007F8CE5 /* below55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "below55@2x.png"; sourceTree = "<group>"; };
+		D4C6333714FBDBD8007F8CE5 /* rapidDownArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rapidDownArrowWhite.png; sourceTree = "<group>"; };
+		D4C6333814FBDBD8007F8CE5 /* rapidDownArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rapidDownArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D4C6333914FBDBD8007F8CE5 /* rapidUpArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rapidUpArrowWhite.png; sourceTree = "<group>"; };
+		D4C6333A14FBDBD8007F8CE5 /* rapidUpArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rapidUpArrowWhite@2x.png"; sourceTree = "<group>"; };
+		D4C6334214FBE876007F8CE5 /* sounds-no-trespassing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sounds-no-trespassing.mp3"; path = "sounds/sounds-no-trespassing.mp3"; sourceTree = "<group>"; };
+		D4C6334314FBE876007F8CE5 /* sounds-solemn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sounds-solemn.mp3"; path = "sounds/sounds-solemn.mp3"; sourceTree = "<group>"; };
+		D4C6334414FBE876007F8CE5 /* sounds-squeaky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sounds-squeaky.mp3"; path = "sounds/sounds-squeaky.mp3"; sourceTree = "<group>"; };
+		D4C6334514FBE876007F8CE5 /* sounds-sucked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sounds-sucked.mp3"; path = "sounds/sounds-sucked.mp3"; sourceTree = "<group>"; };
+		D4C79E601540B04000BD9C46 /* antbphelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = antbphelp.html; path = help/antbphelp.html; sourceTree = "<group>"; };
+		D4C79E611540B04000BD9C46 /* antsensorinfohelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = antsensorinfohelp.html; path = help/antsensorinfohelp.html; sourceTree = "<group>"; };
+		D4C79E621540B04000BD9C46 /* antwshelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = antwshelp.html; path = help/antwshelp.html; sourceTree = "<group>"; };
+		D4C79E631540B04000BD9C46 /* btlesensorinfohelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = btlesensorinfohelp.html; path = help/btlesensorinfohelp.html; sourceTree = "<group>"; };
+		D4C79E641540B04000BD9C46 /* wsconfighelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wsconfighelp.html; path = help/wsconfighelp.html; sourceTree = "<group>"; };
+		D4D42D4915375EBE0001BDB3 /* OdometerHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdometerHistoryVC.h; sourceTree = "<group>"; };
+		D4D42D4A15375EBE0001BDB3 /* OdometerHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OdometerHistoryVC.m; sourceTree = "<group>"; };
+		D4D42D4C15375ED70001BDB3 /* OdometerHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OdometerHistoryVC.xib; sourceTree = "<group>"; };
+		D4EF410A149D3F42008641AC /* ConfigAndHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigAndHelpView.h; sourceTree = "<group>"; };
+		D4EF410B149D3F42008641AC /* ConfigAndHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigAndHelpView.m; sourceTree = "<group>"; };
+		D4EF410E149D3F83008641AC /* ConfigAndHelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigAndHelpView.xib; sourceTree = "<group>"; };
+		D4EF4110149DC110008641AC /* NordicModalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NordicModalDelegate.h; sourceTree = "<group>"; };
+		EC4792761455B9BA002DF15C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ECE853261451854F00C59323 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0A04C3140FF08100A8A19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938CA6781677BD290077F96F /* AVFoundation.framework in Frameworks */,
+				EC4792771455B9BA002DF15C /* AudioToolbox.framework in Frameworks */,
+				D433409214F9EC2B00902A40 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				D433402F14F9D77A00902A40 /* QuartzCore.framework in Frameworks */,
+				D4852F5114ABCD730045DAFE /* MessageUI.framework in Frameworks */,
+				ECE853271451854F00C59323 /* CoreBluetooth.framework in Frameworks */,
+				ABE92548141021CB0061D3D3 /* WFConnector.framework in Frameworks */,
+				AB6D215B1425202100EB6F27 /* MediaPlayer.framework in Frameworks */,
+				ABE92546141021A30061D3D3 /* ExternalAccessory.framework in Frameworks */,
+				AB0A04CB140FF08100A8A19B /* UIKit.framework in Frameworks */,
+				AB0A04CD140FF08100A8A19B /* Foundation.framework in Frameworks */,
+				AB0A04CF140FF08100A8A19B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0A04BB140FF08000A8A19B = {
+			isa = PBXGroup;
+			children = (
+				AB0A04D0140FF08100A8A19B /* Demo */,
+				AB0A04C9140FF08100A8A19B /* Frameworks */,
+				AB0A04C7140FF08100A8A19B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0A04C7140FF08100A8A19B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0A04C6140FF08100A8A19B /* NordicSemiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0A04C9140FF08100A8A19B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D433409114F9EC2B00902A40 /* libCorePlot-CocoaTouch.a */,
+				938CA6771677BD290077F96F /* AVFoundation.framework */,
+				D433402E14F9D77A00902A40 /* QuartzCore.framework */,
+				D4852F5014ABCD710045DAFE /* MessageUI.framework */,
+				EC4792761455B9BA002DF15C /* AudioToolbox.framework */,
+				ECE853261451854F00C59323 /* CoreBluetooth.framework */,
+				AB6D215A1425202100EB6F27 /* MediaPlayer.framework */,
+				ABE92547141021CB0061D3D3 /* WFConnector.framework */,
+				ABE92545141021A30061D3D3 /* ExternalAccessory.framework */,
+				AB0A04CA140FF08100A8A19B /* UIKit.framework */,
+				AB0A04CC140FF08100A8A19B /* Foundation.framework */,
+				AB0A04CE140FF08100A8A19B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0A04D0140FF08100A8A19B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D4852F2814ABA31C0045DAFE /* Import */,
+				D4983416149273C100EBC872 /* Sensor Views */,
+				ABF2699A141035B30013B3B1 /* Sensor Configuration Views */,
+				AB0A04D9140FF08100A8A19B /* NordicSemiAppDelegate.h */,
+				AB0A04DA140FF08100A8A19B /* NordicSemiAppDelegate.m */,
+				AB0A04DC140FF08100A8A19B /* MainWindow.xib */,
+				D424B53314908159004B1F0F /* NordicNavigationBar.h */,
+				D424B5341490815A004B1F0F /* NordicNavigationBar.m */,
+				AB0A04DF140FF08100A8A19B /* RootViewController.h */,
+				AB0A04E0140FF08100A8A19B /* RootViewController.m */,
+				AB0A04E2140FF08100A8A19B /* RootViewController.xib */,
+				D424B49B1490723E004B1F0F /* AntSensorsViewController.h */,
+				D424B49C1490723E004B1F0F /* AntSensorsViewController.m */,
+				D424B49D1490723E004B1F0F /* AntSensorsViewController.xib */,
+				D41E92B61497183400456989 /* BTLESensorsViewController.h */,
+				D41E92B71497183400456989 /* BTLESensorsViewController.m */,
+				D41E92B21497182A00456989 /* BTLESensorsViewController.xib */,
+				AB9CD015146DAB00002EEAA3 /* SettingsViewController.h */,
+				AB9CD016146DAB00002EEAA3 /* SettingsViewController.m */,
+				AB9CD017146DAB00002EEAA3 /* SettingsViewController.xib */,
+				ABF2699D141036D50013B3B1 /* SensorManagerViewController.h */,
+				ABF2699E141036D50013B3B1 /* SensorManagerViewController.m */,
+				ABF2699B141036D50013B3B1 /* SensorManagerViewController.xib */,
+				ABA69D241416DC0800B5AA13 /* AntViewController.h */,
+				ABA69D251416DC0800B5AA13 /* AntViewController.m */,
+				ABA69D281416DC0900B5AA13 /* AntViewController.xib */,
+				ABA69D261416DC0800B5AA13 /* CommandChooserController.h */,
+				ABA69D271416DC0800B5AA13 /* CommandChooserController.m */,
+				ABA69D2A1416DC0900B5AA13 /* CommandChooserController.xib */,
+				D4EF410A149D3F42008641AC /* ConfigAndHelpView.h */,
+				D4EF410B149D3F42008641AC /* ConfigAndHelpView.m */,
+				D4EF410E149D3F83008641AC /* ConfigAndHelpView.xib */,
+				D4EF4110149DC110008641AC /* NordicModalDelegate.h */,
+				D4913307149EF02B00A937F4 /* HelpViewController.h */,
+				D4913308149EF02F00A937F4 /* HelpViewController.m */,
+				D4913309149EF03400A937F4 /* HelpViewController.xib */,
+				AB0A04D1140FF08100A8A19B /* Supporting Files */,
+				D4B56C37148EA09F00FFE251 /* Other Sources */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		AB0A04D1140FF08100A8A19B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C6334114FBE85E007F8CE5 /* Sounds */,
+				D4AF434814B38E4800D9DF92 /* fs-sensor-info.plist */,
+				ABE92516141014E40061D3D3 /* SensorInfo.plist */,
+				AB0A04F1140FF5BE00A8A19B /* images */,
+				AB0A04D2140FF08100A8A19B /* NordicSemiDemo-Info.plist */,
+				AB0A04D3140FF08100A8A19B /* InfoPlist.strings */,
+				AB0A04D6140FF08100A8A19B /* main.m */,
+				AB0A04D8140FF08100A8A19B /* NordicSemiDemo-Prefix.pch */,
+				D482C0A414AEBE3500E3CD19 /* anthelp.html */,
+				D482C0A614AEBE6A00E3CD19 /* btlehelp.html */,
+				D48C473114B8186B009DDFF5 /* wtbphelp.html */,
+				D482C0A814AEBEE600E3CD19 /* antsensorhelp.html */,
+				D482C0AA14AEBF0800E3CD19 /* btlesensorhelp.html */,
+				D482C0AC14AEBF3F00E3CD19 /* settingshelp.html */,
+				D482C0AE14AEBFE700E3CD19 /* HRconfighelp.html */,
+				D482C0B014AEC01500E3CD19 /* runningconfighelp.html */,
+				D482C0B214AEC03000E3CD19 /* bikingconfighelp.html */,
+				D482C0B414AEC05300E3CD19 /* tempconfighelp.html */,
+				D482C0B614AEC06C00E3CD19 /* proximityconfighelp.html */,
+				D41B667114F6A68300E5A530 /* bgmconfighelp.html */,
+				D41B667214F6A68300E5A530 /* btlebikingconfighelp.html */,
+				D41B667314F6A68300E5A530 /* btlebpconfighelp.html */,
+				D41B667414F6A68300E5A530 /* cgmconfighelp.html */,
+				D4C79E601540B04000BD9C46 /* antbphelp.html */,
+				D4C79E611540B04000BD9C46 /* antsensorinfohelp.html */,
+				D4C79E621540B04000BD9C46 /* antwshelp.html */,
+				D4C79E631540B04000BD9C46 /* btlesensorinfohelp.html */,
+				D4C79E641540B04000BD9C46 /* wsconfighelp.html */,
+				D433400D14F952A900902A40 /* cgmsettings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0A04F1140FF5BE00A8A19B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9390408E16809CE700AC8E99 /* SILENCE-TAG-down.png */,
+				9390408F16809CE700AC8E99 /* SILENCE-TAG-down@2x.png */,
+				9390409016809CE700AC8E99 /* SILENCE-TAG.png */,
+				9390409116809CE700AC8E99 /* SILENCE-TAG@2x.png */,
+				935E0C6615540748003DF889 /* ANT+-and-ANT-n-Suunto.png */,
+				935E0C6715540748003DF889 /* ANT+-and-ANT-n-Suunto@2x.png */,
+				D42F8B2D1513BC4500F78E62 /* mediumDownArrowWhite.png */,
+				D42F8B2E1513BC4500F78E62 /* mediumDownArrowWhite@2x.png */,
+				D42F8B2F1513BC4500F78E62 /* mediumUpArrowWhite.png */,
+				D42F8B301513BC4500F78E62 /* mediumUpArrowWhite@2x.png */,
+				D42F8B281513978300F78E62 /* constantArrowWhite.png */,
+				D42F8B291513978300F78E62 /* constantArrowWhite@2x.png */,
+				D4C6333514FBDBD8007F8CE5 /* below55.png */,
+				D4C6333614FBDBD8007F8CE5 /* below55@2x.png */,
+				D4C6333714FBDBD8007F8CE5 /* rapidDownArrowWhite.png */,
+				D4C6333814FBDBD8007F8CE5 /* rapidDownArrowWhite@2x.png */,
+				D4C6333914FBDBD8007F8CE5 /* rapidUpArrowWhite.png */,
+				D4C6333A14FBDBD8007F8CE5 /* rapidUpArrowWhite@2x.png */,
+				D43340A214FAA97700902A40 /* dashedline.png */,
+				D43340A314FAA97700902A40 /* dashedline@2x.png */,
+				D433401514F97F0900902A40 /* downArrowWhite.png */,
+				D433401614F97F0900902A40 /* downArrowWhite@2x.png */,
+				D433401714F97F0900902A40 /* upArrowWhite.png */,
+				D433401814F97F0900902A40 /* upArrowWhite@2x.png */,
+				D41B666D14F6A5A300E5A530 /* Battery.png */,
+				D41B666E14F6A5A300E5A530 /* Battery@2x.png */,
+				D4B8F9FF14F55B5E00E16B2A /* BGM-down.png */,
+				D4B8FA0014F55B5E00E16B2A /* BGM-down@2x.PNG */,
+				D4B8FA0114F55B5E00E16B2A /* BGM.PNG */,
+				D4B8FA0214F55B5E00E16B2A /* BGM@2x.PNG */,
+				D4B8FA0314F55B5E00E16B2A /* CGM-down.png */,
+				D4B8FA0414F55B5E00E16B2A /* CGM-down@2x.PNG */,
+				D4B8FA0514F55B5E00E16B2A /* CGM.PNG */,
+				D4B8FA0614F55B5E00E16B2A /* CGM@2x.PNG */,
+				D48C472C14B81569009DDFF5 /* wahoo.png */,
+				D48C472D14B81569009DDFF5 /* wahoo@2x.png */,
+				D4852F3E14ABC49F0045DAFE /* 60pairfisica.png */,
+				D4852F3F14ABC49F0045DAFE /* 60pairfisica@2x.png */,
+				D4852F4014ABC49F0045DAFE /* 310XTpairfisica.png */,
+				D4852F4114ABC4A00045DAFE /* 310XTpairfisica@2x.png */,
+				D4852F4214ABC4A00045DAFE /* 310XTsearchfisica.png */,
+				D4852F4314ABC4A10045DAFE /* 310XTsearchfisica@2x.png */,
+				D4852F4414ABC4A10045DAFE /* 610pairfisica.png */,
+				D4852F4514ABC4A10045DAFE /* 610pairfisica@2x.png */,
+				D4852F2014AB9E930045DAFE /* FILE-TRANSFER-down.png */,
+				D4852F2114AB9E940045DAFE /* FILE-TRANSFER-down@2x.png */,
+				D4852F2214AB9E940045DAFE /* FILE-TRANSFER.png */,
+				D4852F2314AB9E940045DAFE /* FILE-TRANSFER@2x.png */,
+				D4852EF014A51C550045DAFE /* BP.png */,
+				D4983435149282CC00EBC872 /* ANT+-LOGO-white@2x.png */,
+				D4983436149282CC00EBC872 /* BLUETOOTH-SMART-LOGO-white@2x.png */,
+				D498342B149282B800EBC872 /* 0-BARS@2x.png */,
+				D498342C149282B800EBC872 /* 1-BAR@2x.png */,
+				D498342D149282B800EBC872 /* 2-BARS@2x.png */,
+				D498342E149282B800EBC872 /* 3-BARS@2x.png */,
+				D498342F149282B800EBC872 /* NO-CONNECTION@2x.png */,
+				AB72717A14E60CCE0046A6C2 /* 0-BARS.png */,
+				D4983421149282A400EBC872 /* 1-BAR.png */,
+				D4983422149282A400EBC872 /* 2-BARS.png */,
+				D4983423149282A400EBC872 /* 3-BARS.png */,
+				D4983424149282A400EBC872 /* NO-BARS.png */,
+				D4983425149282A400EBC872 /* NO-CONNECTION.png */,
+				D498341D1492823400EBC872 /* ANT+-LOGO-white.png */,
+				D498341E1492823400EBC872 /* BLUETOOTH-SMART-LOGO-white.png */,
+				D424B53F1491D5E0004B1F0F /* NordicNavbarWhite.png */,
+				D424B53D1491D1D4004B1F0F /* NordicNavbar.png */,
+				D424B52B1490768D004B1F0F /* PADLOCK-OPEN.png */,
+				D424B52C1490768D004B1F0F /* PADLOCK.png */,
+				D424B4E714907672004B1F0F /* BACK-down@2x.png */,
+				D424B4E814907672004B1F0F /* BACK@2x.png */,
+				D424B4E914907672004B1F0F /* BIKING-down@2x.png */,
+				D424B4EA14907672004B1F0F /* BIKING@2x.png */,
+				D424B4EB14907672004B1F0F /* BLUETOOTH-SMART-LOGO@2x.png */,
+				D424B4EC14907673004B1F0F /* BOX-blue@2x.png */,
+				D424B4ED14907673004B1F0F /* BOX-CONFIG-blue@2x.png */,
+				D424B4EE14907673004B1F0F /* BP-down@2x.png */,
+				D424B4EF14907673004B1F0F /* BP@2x.png */,
+				D424B4F014907673004B1F0F /* CONFIGURE-down@2x.png */,
+				D424B4F114907673004B1F0F /* CONFIGURE@2x.png */,
+				D424B4F214907673004B1F0F /* CONNECT-down@2x.png */,
+				D424B4F314907673004B1F0F /* CONNECT@2x.png */,
+				D424B4F414907673004B1F0F /* DISCONNECT-down@2x.png */,
+				D424B4F514907673004B1F0F /* DISCONNECT@2x.png */,
+				D424B4F614907673004B1F0F /* FIND-MY-TAG-down@2x.png */,
+				D424B4F714907674004B1F0F /* FIND-MY-TAG@2x.png */,
+				D424B4F814907674004B1F0F /* HELP-down@2x.png */,
+				D424B4F914907674004B1F0F /* HELP@2x.png */,
+				D424B4FA14907674004B1F0F /* HRM-down@2x.png */,
+				D424B4FB14907674004B1F0F /* HRM@2x.png */,
+				D424B4FC14907674004B1F0F /* MANAGE-CONNECTIONS-down@2x.png */,
+				D424B4FD14907674004B1F0F /* MANAGE-CONNECTIONS@2x.png */,
+				D424B4FE14907674004B1F0F /* NORDIC-LOGO@2x.png */,
+				D424B4FF14907674004B1F0F /* PADLOCK-OPEN@2x.png */,
+				D424B50014907674004B1F0F /* PADLOCK@2x.png */,
+				D424B50114907674004B1F0F /* PROXIMITY-down@2x.png */,
+				D424B50214907674004B1F0F /* PROXIMITY@2x.png */,
+				D424B50314907674004B1F0F /* RUNNING-down@2x.png */,
+				D424B50414907674004B1F0F /* RUNNING@2x.png */,
+				D424B50514907675004B1F0F /* TEMP-down@2x.png */,
+				D424B50614907675004B1F0F /* TEMP@2x.png */,
+				D424B50714907675004B1F0F /* WEIGHT-down@2x.png */,
+				D424B50814907675004B1F0F /* WEIGHT@2x.png */,
+				D424B4DF149074BE004B1F0F /* BLUETOOTH-SMART-LOGO.png */,
+				D424B4E0149074BE004B1F0F /* BOX-blue.png */,
+				D424B4E1149074BE004B1F0F /* BOX-CONFIG-blue.png */,
+				D424B4E2149074BE004B1F0F /* NORDIC-LOGO.png */,
+				D424B4A914907474004B1F0F /* BACK-down.png */,
+				D49834481493192300EBC872 /* navigationBarBackButton.png */,
+				D424B4AA14907474004B1F0F /* BACK.png */,
+				D424B4AB14907474004B1F0F /* BIKING-down.png */,
+				D424B4AC14907474004B1F0F /* BIKING.png */,
+				D424B4AD14907474004B1F0F /* BP-down.png */,
+				D424B4AE14907474004B1F0F /* CONFIGURE-down.png */,
+				D424B4AF14907474004B1F0F /* CONFIGURE.png */,
+				D424B4B014907474004B1F0F /* CONNECT-down.png */,
+				D424B4B114907474004B1F0F /* CONNECT.png */,
+				D424B4B214907474004B1F0F /* DISCONNECT-down.png */,
+				D424B4B314907475004B1F0F /* DISCONNECT.png */,
+				D424B4B414907475004B1F0F /* FIND-MY-TAG-down.png */,
+				D424B4B514907475004B1F0F /* FIND-MY-TAG.png */,
+				D424B4B614907475004B1F0F /* HELP-down.png */,
+				D424B4B714907475004B1F0F /* HELP.png */,
+				D424B4B814907475004B1F0F /* HRM-down.png */,
+				D424B4B914907475004B1F0F /* HRM.png */,
+				D424B4BA14907475004B1F0F /* MANAGE-CONNECTIONS-down.png */,
+				D424B4BB14907475004B1F0F /* MANAGE-CONNECTIONS.png */,
+				D424B4BC14907475004B1F0F /* PROXIMITY-down.png */,
+				D424B4BD14907475004B1F0F /* PROXIMITY.png */,
+				D424B4BE14907475004B1F0F /* RUNNING-down.png */,
+				D424B4BF14907475004B1F0F /* RUNNING.png */,
+				D424B4C014907475004B1F0F /* TEMP-down.png */,
+				D424B4C114907476004B1F0F /* TEMP.png */,
+				D424B4C214907476004B1F0F /* WEIGHT-down.png */,
+				D424B4C314907476004B1F0F /* WEIGHT.png */,
+				D424B4A7149073C5004B1F0F /* ANT+-BLACK.png */,
+				D424B4A5149073A6004B1F0F /* ANT+-BLACK@2x.png */,
+				D424B4A314907300004B1F0F /* Background-gradient-plain@2x.png */,
+				D424B4A1149072E1004B1F0F /* Background-gradient-plain.png */,
+				D4B56C33148E7AF700FFE251 /* root_bg.png */,
+				D4B56C34148E7AF700FFE251 /* root_bg@2x.png */,
+				AB0A04F2140FF5BE00A8A19B /* Default.png */,
+				AB0A04F3140FF5BE00A8A19B /* Default@2x.png */,
+				AB0A04F4140FF5BE00A8A19B /* icon.png */,
+				AB0A04F5140FF5BE00A8A19B /* icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		ABF2699A141035B30013B3B1 /* Sensor Configuration Views */ = {
+			isa = PBXGroup;
+			children = (
+				D43882B3153C73FE00D253DC /* WeightScaleConfController.h */,
+				D43882B4153C73FE00D253DC /* WeightScaleConfController.m */,
+				D43882B7153C741A00D253DC /* WeightScaleConfController.xib */,
+				D41D4142150A6C1A00F081F8 /* BTDeviceInfoVC.h */,
+				D41D4143150A6C1A00F081F8 /* BTDeviceInfoVC.m */,
+				D41D4147150A6C6400F081F8 /* BTDeviceInfoVC.xib */,
+				D41D413E150A6C0300F081F8 /* ANTDeviceInfoVC.h */,
+				D41D413F150A6C0300F081F8 /* ANTDeviceInfoVC.m */,
+				D41D4145150A6C6400F081F8 /* ANTDeviceInfoVC.xib */,
+				D433400314F9471C00902A40 /* GlucoseVC.h */,
+				D433400414F9471D00902A40 /* GlucoseVC.m */,
+				D433400514F9471E00902A40 /* GlucoseVC.xib */,
+				D42F8B3A1513DCC100F78E62 /* GlucoseVCSettings.h */,
+				D42F8B3B1513DCC100F78E62 /* GlucoseVCSettings.m */,
+				D42F8B3C1513DCC100F78E62 /* GlucoseVCSettings.xib */,
+				D4333FE814F6CAAB00902A40 /* BTGlucoseDetailVC.h */,
+				D4333FE914F6CAAB00902A40 /* BTGlucoseDetailVC.m */,
+				D4333FEA14F6CAAB00902A40 /* BTGlucoseDetailVC.xib */,
+				D4333FEB14F6CAAB00902A40 /* BTGlucoseVC.h */,
+				D4333FEC14F6CAAB00902A40 /* BTGlucoseVC.m */,
+				D4333FED14F6CAAC00902A40 /* BTGlucoseVC.xib */,
+				ABF26995141035930013B3B1 /* WFSensorCommonViewController.h */,
+				ABF26996141035930013B3B1 /* WFSensorCommonViewController.m */,
+				D4B8FA1214F580F900E16B2A /* BTBloodPressureVC.h */,
+				D4B8FA1314F580F900E16B2A /* BTBloodPressureVC.m */,
+				D4B8FA1414F580F900E16B2A /* BTBloodPressureVC.xib */,
+				D4852F0414A51DA00045DAFE /* ProximityViewController.h */,
+				D4852F0514A51DA00045DAFE /* ProximityViewController.m */,
+				D4852EFA14A51D720045DAFE /* ProximityViewController.xib */,
+				D4852F0614A51DA00045DAFE /* TemperatureViewController.h */,
+				D4852F0714A51DA00045DAFE /* TemperatureViewController.m */,
+				D4852EFC14A51D720045DAFE /* TemperatureViewController.xib */,
+				ABF26993141035930013B3B1 /* HeartrateViewController.h */,
+				ABF26994141035930013B3B1 /* HeartrateViewController.m */,
+				ABF26991141035930013B3B1 /* HeartrateViewController.xib */,
+				ABF269B414104FCA0013B3B1 /* BikeSpeedCadenceViewController.h */,
+				ABF269B514104FCA0013B3B1 /* BikeSpeedCadenceViewController.m */,
+				ABF269B614104FCA0013B3B1 /* BikeSpeedCadenceViewController.xib */,
+				D4D42D4915375EBE0001BDB3 /* OdometerHistoryVC.h */,
+				D4D42D4A15375EBE0001BDB3 /* OdometerHistoryVC.m */,
+				D4D42D4C15375ED70001BDB3 /* OdometerHistoryVC.xib */,
+				ABF269BA141059FD0013B3B1 /* BikeSpeedViewController.h */,
+				ABF269BB141059FD0013B3B1 /* BikeSpeedViewController.m */,
+				ABF269BC141059FD0013B3B1 /* BikeSpeedViewController.xib */,
+				ABF269C014105CB90013B3B1 /* BikeCadenceViewController.h */,
+				ABF269C114105CB90013B3B1 /* BikeCadenceViewController.m */,
+				ABF269C214105CB90013B3B1 /* BikeCadenceViewController.xib */,
+				ABF269C814105E130013B3B1 /* BikePowerViewController.h */,
+				ABF269C914105E130013B3B1 /* BikePowerViewController.m */,
+				ABF269CC14105E130013B3B1 /* BikePowerViewController.xib */,
+				ABF269C614105E120013B3B1 /* BikePowerCalibration.h */,
+				ABF269C714105E120013B3B1 /* BikePowerCalibration.m */,
+				ABF269CA14105E130013B3B1 /* BikePowerCalibration.xib */,
+				ABF269D4141060730013B3B1 /* FootpodViewController.h */,
+				ABF269D5141060730013B3B1 /* FootpodViewController.m */,
+				ABF269D2141060730013B3B1 /* FootpodViewController.xib */,
+				D498344E1493E97000EBC872 /* ConfigScrollerController.h */,
+				D498344F1493E97000EBC872 /* ConfigScrollerController.m */,
+				D49834501493E97000EBC872 /* ConfigScrollerController.xib */,
+				D42F8B351513DA7100F78E62 /* MultiConfigScrollerController.h */,
+				D42F8B361513DA7100F78E62 /* MultiConfigScrollerController.m */,
+				D42F8B371513DA7100F78E62 /* MultiConfigScrollerController.xib */,
+			);
+			name = "Sensor Configuration Views";
+			sourceTree = "<group>";
+		};
+		D4852F2814ABA31C0045DAFE /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				D4852F3B14ABA53B0045DAFE /* WFFitWatchManager.h */,
+				D4852F3C14ABA53C0045DAFE /* WFFitWatchManager.m */,
+				D4852F2C14ABA33D0045DAFE /* FitDeviceViewController.h */,
+				D4852F2D14ABA33D0045DAFE /* FitDeviceViewController.m */,
+				D4852F2E14ABA33D0045DAFE /* FitDeviceViewController.xib */,
+				D4852F2F14ABA33D0045DAFE /* FitFileTableView.h */,
+				D4852F3014ABA33D0045DAFE /* FitFileTableView.m */,
+				D4852F3114ABA33D0045DAFE /* FitFileTableView.xib */,
+				D4852F3214ABA33D0045DAFE /* WFFitDirectoryEntry.h */,
+				D4852F3314ABA33D0045DAFE /* WFFitDirectoryEntry.m */,
+			);
+			name = Import;
+			sourceTree = "<group>";
+		};
+		D4983416149273C100EBC872 /* Sensor Views */ = {
+			isa = PBXGroup;
+			children = (
+				D433400F14F9649100902A40 /* CGMViewController.h */,
+				D433401014F9649200902A40 /* CGMViewController.m */,
+				D433401214F964AF00902A40 /* CGMViewController.xib */,
+				D4333FF614F73D0100902A40 /* BGMViewController.h */,
+				D4333FF714F73D0200902A40 /* BGMViewController.m */,
+				D4333FF314F73CE700902A40 /* BGMViewController.xib */,
+				938CA6731677BBFD0077F96F /* ServerManager.h */,
+				938CA6741677BBFD0077F96F /* ServerManager.m */,
+				D4852EF214A51D520045DAFE /* ProximitySimpleViewController.h */,
+				D4852EF314A51D520045DAFE /* ProximitySimpleViewController.m */,
+				D4852EF814A51D720045DAFE /* ProximitySimpleViewController.xib */,
+				D4852EF414A51D520045DAFE /* TempSimpleViewController.h */,
+				D4852EF514A51D520045DAFE /* TempSimpleViewController.m */,
+				D4852EFE14A51D720045DAFE /* TempSimpleViewController.xib */,
+				D41E92BF1497B9ED00456989 /* BikingViewController.h */,
+				D41E92C01497B9ED00456989 /* BikingViewController.m */,
+				D41E92C31497B9F900456989 /* BikingViewController.xib */,
+				D405113C1496D2C4004F1B01 /* RunningViewController.h */,
+				D405113D1496D2C4004F1B01 /* RunningViewController.m */,
+				D40511391496D2B1004F1B01 /* RunningViewController.xib */,
+				D49834181492747600EBC872 /* HeartrateSimpleViewController.h */,
+				D49834191492747600EBC872 /* HeartrateSimpleViewController.m */,
+				D49834571494697000EBC872 /* HeartrateSimpleViewController.xib */,
+				D4983440149292AB00EBC872 /* NSSensorSimpleBaseVC.h */,
+				D4983441149292AC00EBC872 /* NSSensorSimpleBaseVC.m */,
+				D4AF432B14B3838B00D9DF92 /* BloodPressureViewController.h */,
+				D4AF432C14B3838B00D9DF92 /* BloodPressureViewController.m */,
+				D4AF432D14B3838B00D9DF92 /* BloodPressureViewController.xib */,
+				D4B8FA1714F58D2B00E16B2A /* BTBloodPressureViewController.h */,
+				D4B8FA1814F58D2B00E16B2A /* BTBloodPressureViewController.m */,
+				D4B8FA1914F58D2C00E16B2A /* BTBloodPressureViewController.xib */,
+				D4AF432E14B3838C00D9DF92 /* BPHistoryViewController.h */,
+				D4AF432F14B3838C00D9DF92 /* BPHistoryViewController.m */,
+				D4AF433014B3838C00D9DF92 /* BPHistoryViewController.xib */,
+				D4AF433114B3838C00D9DF92 /* WeightHistoryViewController.h */,
+				D4AF433214B3838D00D9DF92 /* WeightHistoryViewController.m */,
+				D4AF433314B3838D00D9DF92 /* WeightHistoryViewController.xib */,
+				D4AF433414B3838D00D9DF92 /* WeightScaleViewController.h */,
+				D4AF433514B3838D00D9DF92 /* WeightScaleViewController.m */,
+				D4AF433614B3838D00D9DF92 /* WeightScaleViewController.xib */,
+				D4AF433714B3838E00D9DF92 /* WFFSSensorVCBase.h */,
+				D4AF433814B3838E00D9DF92 /* WFFSSensorVCBase.m */,
+			);
+			name = "Sensor Views";
+			sourceTree = "<group>";
+		};
+		D4B56C37148EA09F00FFE251 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF432814B37F6900D9DF92 /* HistoryManager.h */,
+				D4AF432914B37F6900D9DF92 /* HistoryManager.m */,
+				D4913313149F00E200A937F4 /* DDPageControl.h */,
+				D4913314149F00E200A937F4 /* DDPageControl.m */,
+				D4B56C38148EA0DE00FFE251 /* DTCustomColoredAccessory.h */,
+				D4B56C39148EA12C00FFE251 /* DTCustomColoredAccessory.m */,
+				D42B44C215419FF0009989F2 /* BTBPRecord.h */,
+				D42B44C315419FF0009989F2 /* BTBPRecord.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D4C6334114FBE85E007F8CE5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				938CA6791677BDFE0077F96F /* alarm-sound.wav */,
+				D4C6334214FBE876007F8CE5 /* sounds-no-trespassing.mp3 */,
+				D4C6334314FBE876007F8CE5 /* sounds-solemn.mp3 */,
+				D4C6334414FBE876007F8CE5 /* sounds-squeaky.mp3 */,
+				D4C6334514FBE876007F8CE5 /* sounds-sucked.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0A04C5140FF08100A8A19B /* NordicSemiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0A04E7140FF08100A8A19B /* Build configuration list for PBXNativeTarget "NordicSemiDemo" */;
+			buildPhases = (
+				AB0A04C2140FF08100A8A19B /* Sources */,
+				AB0A04C3140FF08100A8A19B /* Frameworks */,
+				AB0A04C4140FF08100A8A19B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NordicSemiDemo;
+			productName = WahooDemo;
+			productReference = AB0A04C6140FF08100A8A19B /* NordicSemiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0A04BD140FF08000A8A19B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AB0A04C0140FF08000A8A19B /* Build configuration list for PBXProject "NordicSemiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB0A04BB140FF08000A8A19B;
+			productRefGroup = AB0A04C7140FF08100A8A19B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0A04C5140FF08100A8A19B /* NordicSemiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0A04C4140FF08100A8A19B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0A04D5140FF08100A8A19B /* InfoPlist.strings in Resources */,
+				AB0A04DE140FF08100A8A19B /* MainWindow.xib in Resources */,
+				AB0A04E4140FF08100A8A19B /* RootViewController.xib in Resources */,
+				AB0A04F6140FF5BE00A8A19B /* Default.png in Resources */,
+				AB0A04F7140FF5BE00A8A19B /* Default@2x.png in Resources */,
+				AB0A04F8140FF5BE00A8A19B /* icon.png in Resources */,
+				AB0A04F9140FF5BE00A8A19B /* icon@2x.png in Resources */,
+				ABE92517141014E40061D3D3 /* SensorInfo.plist in Resources */,
+				ABF26997141035930013B3B1 /* HeartrateViewController.xib in Resources */,
+				ABF2699F141036D50013B3B1 /* SensorManagerViewController.xib in Resources */,
+				ABF269B914104FCA0013B3B1 /* BikeSpeedCadenceViewController.xib in Resources */,
+				ABF269BF141059FD0013B3B1 /* BikeSpeedViewController.xib in Resources */,
+				ABF269C514105CB90013B3B1 /* BikeCadenceViewController.xib in Resources */,
+				ABF269D014105E130013B3B1 /* BikePowerCalibration.xib in Resources */,
+				ABF269D114105E130013B3B1 /* BikePowerViewController.xib in Resources */,
+				ABF269D6141060740013B3B1 /* FootpodViewController.xib in Resources */,
+				ABA69D2E1416DC0900B5AA13 /* AntViewController.xib in Resources */,
+				ABA69D2F1416DC0900B5AA13 /* CommandChooserController.xib in Resources */,
+				AB9CD019146DAB00002EEAA3 /* SettingsViewController.xib in Resources */,
+				D4B56C35148E7AF700FFE251 /* root_bg.png in Resources */,
+				D4B56C36148E7AF700FFE251 /* root_bg@2x.png in Resources */,
+				D424B49F1490723E004B1F0F /* AntSensorsViewController.xib in Resources */,
+				D424B4A2149072E1004B1F0F /* Background-gradient-plain.png in Resources */,
+				D424B4A414907300004B1F0F /* Background-gradient-plain@2x.png in Resources */,
+				D424B4A6149073A6004B1F0F /* ANT+-BLACK@2x.png in Resources */,
+				D424B4A8149073C5004B1F0F /* ANT+-BLACK.png in Resources */,
+				D424B4C414907476004B1F0F /* BACK-down.png in Resources */,
+				D424B4C514907476004B1F0F /* BACK.png in Resources */,
+				D424B4C614907476004B1F0F /* BIKING-down.png in Resources */,
+				D424B4C714907476004B1F0F /* BIKING.png in Resources */,
+				D424B4C814907476004B1F0F /* BP-down.png in Resources */,
+				D424B4C914907476004B1F0F /* CONFIGURE-down.png in Resources */,
+				D424B4CA14907476004B1F0F /* CONFIGURE.png in Resources */,
+				D424B4CB14907476004B1F0F /* CONNECT-down.png in Resources */,
+				D424B4CC14907476004B1F0F /* CONNECT.png in Resources */,
+				D424B4CD14907476004B1F0F /* DISCONNECT-down.png in Resources */,
+				D424B4CE14907476004B1F0F /* DISCONNECT.png in Resources */,
+				D424B4CF14907476004B1F0F /* FIND-MY-TAG-down.png in Resources */,
+				D424B4D014907476004B1F0F /* FIND-MY-TAG.png in Resources */,
+				D424B4D114907476004B1F0F /* HELP-down.png in Resources */,
+				D424B4D214907476004B1F0F /* HELP.png in Resources */,
+				D424B4D314907476004B1F0F /* HRM-down.png in Resources */,
+				D424B4D414907476004B1F0F /* HRM.png in Resources */,
+				D424B4D514907476004B1F0F /* MANAGE-CONNECTIONS-down.png in Resources */,
+				D424B4D614907476004B1F0F /* MANAGE-CONNECTIONS.png in Resources */,
+				D424B4D714907476004B1F0F /* PROXIMITY-down.png in Resources */,
+				D424B4D814907476004B1F0F /* PROXIMITY.png in Resources */,
+				D424B4D914907476004B1F0F /* RUNNING-down.png in Resources */,
+				D424B4DA14907476004B1F0F /* RUNNING.png in Resources */,
+				D424B4DB14907476004B1F0F /* TEMP-down.png in Resources */,
+				D424B4DC14907476004B1F0F /* TEMP.png in Resources */,
+				D424B4DD14907476004B1F0F /* WEIGHT-down.png in Resources */,
+				D424B4DE14907476004B1F0F /* WEIGHT.png in Resources */,
+				D424B4E3149074BE004B1F0F /* BLUETOOTH-SMART-LOGO.png in Resources */,
+				D424B4E4149074BE004B1F0F /* BOX-blue.png in Resources */,
+				D424B4E5149074BE004B1F0F /* BOX-CONFIG-blue.png in Resources */,
+				D424B4E6149074BE004B1F0F /* NORDIC-LOGO.png in Resources */,
+				D424B50914907675004B1F0F /* BACK-down@2x.png in Resources */,
+				D424B50A14907675004B1F0F /* BACK@2x.png in Resources */,
+				D424B50B14907675004B1F0F /* BIKING-down@2x.png in Resources */,
+				D424B50C14907675004B1F0F /* BIKING@2x.png in Resources */,
+				D424B50D14907675004B1F0F /* BLUETOOTH-SMART-LOGO@2x.png in Resources */,
+				D424B50E14907675004B1F0F /* BOX-blue@2x.png in Resources */,
+				D424B50F14907675004B1F0F /* BOX-CONFIG-blue@2x.png in Resources */,
+				D424B51014907675004B1F0F /* BP-down@2x.png in Resources */,
+				D424B51114907675004B1F0F /* BP@2x.png in Resources */,
+				D424B51214907675004B1F0F /* CONFIGURE-down@2x.png in Resources */,
+				D424B51314907675004B1F0F /* CONFIGURE@2x.png in Resources */,
+				D424B51414907675004B1F0F /* CONNECT-down@2x.png in Resources */,
+				D424B51514907675004B1F0F /* CONNECT@2x.png in Resources */,
+				D424B51614907675004B1F0F /* DISCONNECT-down@2x.png in Resources */,
+				D424B51714907675004B1F0F /* DISCONNECT@2x.png in Resources */,
+				D424B51814907675004B1F0F /* FIND-MY-TAG-down@2x.png in Resources */,
+				D424B51914907675004B1F0F /* FIND-MY-TAG@2x.png in Resources */,
+				D424B51A14907675004B1F0F /* HELP-down@2x.png in Resources */,
+				D424B51B14907675004B1F0F /* HELP@2x.png in Resources */,
+				D424B51C14907675004B1F0F /* HRM-down@2x.png in Resources */,
+				D424B51D14907675004B1F0F /* HRM@2x.png in Resources */,
+				D424B51E14907675004B1F0F /* MANAGE-CONNECTIONS-down@2x.png in Resources */,
+				D424B51F14907675004B1F0F /* MANAGE-CONNECTIONS@2x.png in Resources */,
+				D424B52014907675004B1F0F /* NORDIC-LOGO@2x.png in Resources */,
+				D424B52114907675004B1F0F /* PADLOCK-OPEN@2x.png in Resources */,
+				D424B52214907675004B1F0F /* PADLOCK@2x.png in Resources */,
+				D424B52314907675004B1F0F /* PROXIMITY-down@2x.png in Resources */,
+				D424B52414907675004B1F0F /* PROXIMITY@2x.png in Resources */,
+				D424B52514907675004B1F0F /* RUNNING-down@2x.png in Resources */,
+				D424B52614907675004B1F0F /* RUNNING@2x.png in Resources */,
+				D424B52714907675004B1F0F /* TEMP-down@2x.png in Resources */,
+				D424B52814907675004B1F0F /* TEMP@2x.png in Resources */,
+				D424B52914907675004B1F0F /* WEIGHT-down@2x.png in Resources */,
+				D424B52A14907675004B1F0F /* WEIGHT@2x.png in Resources */,
+				D424B52D1490768D004B1F0F /* PADLOCK-OPEN.png in Resources */,
+				D424B52E1490768D004B1F0F /* PADLOCK.png in Resources */,
+				D424B53E1491D1DA004B1F0F /* NordicNavbar.png in Resources */,
+				D424B5401491D5E1004B1F0F /* NordicNavbarWhite.png in Resources */,
+				D498341F1492823400EBC872 /* ANT+-LOGO-white.png in Resources */,
+				D49834201492823400EBC872 /* BLUETOOTH-SMART-LOGO-white.png in Resources */,
+				D4983426149282A400EBC872 /* 1-BAR.png in Resources */,
+				D4983427149282A400EBC872 /* 2-BARS.png in Resources */,
+				D4983428149282A400EBC872 /* 3-BARS.png in Resources */,
+				D4983429149282A400EBC872 /* NO-BARS.png in Resources */,
+				D498342A149282A400EBC872 /* NO-CONNECTION.png in Resources */,
+				D4983430149282B800EBC872 /* 0-BARS@2x.png in Resources */,
+				D4983431149282B800EBC872 /* 1-BAR@2x.png in Resources */,
+				D4983432149282B800EBC872 /* 2-BARS@2x.png in Resources */,
+				D4983433149282B800EBC872 /* 3-BARS@2x.png in Resources */,
+				D4983434149282B800EBC872 /* NO-CONNECTION@2x.png in Resources */,
+				D4983437149282CC00EBC872 /* ANT+-LOGO-white@2x.png in Resources */,
+				D4983438149282CC00EBC872 /* BLUETOOTH-SMART-LOGO-white@2x.png in Resources */,
+				D49834491493192300EBC872 /* navigationBarBackButton.png in Resources */,
+				D49834521493E97100EBC872 /* ConfigScrollerController.xib in Resources */,
+				D49834591494697000EBC872 /* HeartrateSimpleViewController.xib in Resources */,
+				D405113B1496D2B1004F1B01 /* RunningViewController.xib in Resources */,
+				D41E92B41497182A00456989 /* BTLESensorsViewController.xib in Resources */,
+				D41E92C51497B9F900456989 /* BikingViewController.xib in Resources */,
+				D4EF410F149D3F83008641AC /* ConfigAndHelpView.xib in Resources */,
+				D491330B149EF03600A937F4 /* HelpViewController.xib in Resources */,
+				D4852EF114A51C550045DAFE /* BP.png in Resources */,
+				D4852F0014A51D720045DAFE /* ProximitySimpleViewController.xib in Resources */,
+				D4852F0114A51D720045DAFE /* ProximityViewController.xib in Resources */,
+				D4852F0214A51D720045DAFE /* TemperatureViewController.xib in Resources */,
+				D4852F0314A51D720045DAFE /* TempSimpleViewController.xib in Resources */,
+				D4852F2414AB9E940045DAFE /* FILE-TRANSFER-down.png in Resources */,
+				D4852F2514AB9E940045DAFE /* FILE-TRANSFER-down@2x.png in Resources */,
+				D4852F2614AB9E940045DAFE /* FILE-TRANSFER.png in Resources */,
+				D4852F2714AB9E940045DAFE /* FILE-TRANSFER@2x.png in Resources */,
+				D4852F3714ABA33D0045DAFE /* FitDeviceViewController.xib in Resources */,
+				D4852F3914ABA33D0045DAFE /* FitFileTableView.xib in Resources */,
+				D4852F4614ABC4A20045DAFE /* 60pairfisica.png in Resources */,
+				D4852F4714ABC4A20045DAFE /* 60pairfisica@2x.png in Resources */,
+				D4852F4814ABC4A20045DAFE /* 310XTpairfisica.png in Resources */,
+				D4852F4914ABC4A20045DAFE /* 310XTpairfisica@2x.png in Resources */,
+				D4852F4A14ABC4A20045DAFE /* 310XTsearchfisica.png in Resources */,
+				D4852F4B14ABC4A20045DAFE /* 310XTsearchfisica@2x.png in Resources */,
+				D4852F4C14ABC4A20045DAFE /* 610pairfisica.png in Resources */,
+				D4852F4D14ABC4A20045DAFE /* 610pairfisica@2x.png in Resources */,
+				D482C0A514AEBE3500E3CD19 /* anthelp.html in Resources */,
+				D482C0A714AEBE6A00E3CD19 /* btlehelp.html in Resources */,
+				D482C0A914AEBEE600E3CD19 /* antsensorhelp.html in Resources */,
+				D482C0AB14AEBF0800E3CD19 /* btlesensorhelp.html in Resources */,
+				D482C0AD14AEBF3F00E3CD19 /* settingshelp.html in Resources */,
+				D482C0AF14AEBFE700E3CD19 /* HRconfighelp.html in Resources */,
+				D482C0B114AEC01600E3CD19 /* runningconfighelp.html in Resources */,
+				D482C0B314AEC03000E3CD19 /* bikingconfighelp.html in Resources */,
+				D482C0B514AEC05300E3CD19 /* tempconfighelp.html in Resources */,
+				D482C0B714AEC06C00E3CD19 /* proximityconfighelp.html in Resources */,
+				D4AF433A14B3838E00D9DF92 /* BloodPressureViewController.xib in Resources */,
+				D4AF433C14B3838E00D9DF92 /* BPHistoryViewController.xib in Resources */,
+				D4AF433E14B3838E00D9DF92 /* WeightHistoryViewController.xib in Resources */,
+				D4AF434014B3838E00D9DF92 /* WeightScaleViewController.xib in Resources */,
+				D4AF434914B38E4800D9DF92 /* fs-sensor-info.plist in Resources */,
+				D48C472E14B81569009DDFF5 /* wahoo.png in Resources */,
+				D48C472F14B81569009DDFF5 /* wahoo@2x.png in Resources */,
+				D48C473214B8186B009DDFF5 /* wtbphelp.html in Resources */,
+				D4B8FA0714F55B5E00E16B2A /* BGM-down.png in Resources */,
+				D4B8FA0814F55B5E00E16B2A /* BGM-down@2x.PNG in Resources */,
+				D4B8FA0914F55B5E00E16B2A /* BGM.PNG in Resources */,
+				D4B8FA0A14F55B5E00E16B2A /* BGM@2x.PNG in Resources */,
+				D4B8FA0B14F55B5E00E16B2A /* CGM-down.png in Resources */,
+				D4B8FA0C14F55B5E00E16B2A /* CGM-down@2x.PNG in Resources */,
+				D4B8FA0D14F55B5E00E16B2A /* CGM.PNG in Resources */,
+				D4B8FA0E14F55B5E00E16B2A /* CGM@2x.PNG in Resources */,
+				D4B8FA1614F580F900E16B2A /* BTBloodPressureVC.xib in Resources */,
+				D4B8FA1B14F58D2D00E16B2A /* BTBloodPressureViewController.xib in Resources */,
+				AB72717B14E60CCE0046A6C2 /* 0-BARS.png in Resources */,
+				D41B666F14F6A5A300E5A530 /* Battery.png in Resources */,
+				D41B667014F6A5A300E5A530 /* Battery@2x.png in Resources */,
+				D41B667514F6A68300E5A530 /* bgmconfighelp.html in Resources */,
+				D41B667614F6A68300E5A530 /* btlebikingconfighelp.html in Resources */,
+				D41B667714F6A68300E5A530 /* btlebpconfighelp.html in Resources */,
+				D41B667814F6A68300E5A530 /* cgmconfighelp.html in Resources */,
+				D4333FEF14F6CAAC00902A40 /* BTGlucoseDetailVC.xib in Resources */,
+				D4333FF114F6CAAC00902A40 /* BTGlucoseVC.xib in Resources */,
+				D4333FF514F73CE800902A40 /* BGMViewController.xib in Resources */,
+				D433400714F9471F00902A40 /* GlucoseVC.xib in Resources */,
+				D433400E14F952A900902A40 /* cgmsettings.plist in Resources */,
+				D433401414F964B000902A40 /* CGMViewController.xib in Resources */,
+				D433401914F97F0900902A40 /* downArrowWhite.png in Resources */,
+				D433401A14F97F0900902A40 /* downArrowWhite@2x.png in Resources */,
+				D433401B14F97F0900902A40 /* upArrowWhite.png in Resources */,
+				D433401C14F97F0900902A40 /* upArrowWhite@2x.png in Resources */,
+				D43340A414FAA97700902A40 /* dashedline.png in Resources */,
+				D43340A514FAA97700902A40 /* dashedline@2x.png in Resources */,
+				D4C6333B14FBDBD8007F8CE5 /* below55.png in Resources */,
+				D4C6333C14FBDBD8007F8CE5 /* below55@2x.png in Resources */,
+				D4C6333D14FBDBD8007F8CE5 /* rapidDownArrowWhite.png in Resources */,
+				D4C6333E14FBDBD8007F8CE5 /* rapidDownArrowWhite@2x.png in Resources */,
+				D4C6333F14FBDBD8007F8CE5 /* rapidUpArrowWhite.png in Resources */,
+				D4C6334014FBDBD8007F8CE5 /* rapidUpArrowWhite@2x.png in Resources */,
+				D4C6334614FBE876007F8CE5 /* sounds-no-trespassing.mp3 in Resources */,
+				D4C6334714FBE876007F8CE5 /* sounds-solemn.mp3 in Resources */,
+				D4C6334814FBE876007F8CE5 /* sounds-squeaky.mp3 in Resources */,
+				D4C6334914FBE876007F8CE5 /* sounds-sucked.mp3 in Resources */,
+				D41D4149150A6C6400F081F8 /* ANTDeviceInfoVC.xib in Resources */,
+				D41D414A150A6C6400F081F8 /* BTDeviceInfoVC.xib in Resources */,
+				D42F8B2A1513978300F78E62 /* constantArrowWhite.png in Resources */,
+				D42F8B2B1513978300F78E62 /* constantArrowWhite@2x.png in Resources */,
+				D42F8B311513BC4500F78E62 /* mediumDownArrowWhite.png in Resources */,
+				D42F8B321513BC4500F78E62 /* mediumDownArrowWhite@2x.png in Resources */,
+				D42F8B331513BC4500F78E62 /* mediumUpArrowWhite.png in Resources */,
+				D42F8B341513BC4500F78E62 /* mediumUpArrowWhite@2x.png in Resources */,
+				D42F8B391513DA7100F78E62 /* MultiConfigScrollerController.xib in Resources */,
+				D42F8B3E1513DCC100F78E62 /* GlucoseVCSettings.xib in Resources */,
+				D4D42D4D15375ED70001BDB3 /* OdometerHistoryVC.xib in Resources */,
+				D43882B9153C741A00D253DC /* WeightScaleConfController.xib in Resources */,
+				D4C79E651540B04000BD9C46 /* antbphelp.html in Resources */,
+				D4C79E661540B04000BD9C46 /* antsensorinfohelp.html in Resources */,
+				D4C79E671540B04000BD9C46 /* antwshelp.html in Resources */,
+				D4C79E681540B04000BD9C46 /* btlesensorinfohelp.html in Resources */,
+				D4C79E691540B04000BD9C46 /* wsconfighelp.html in Resources */,
+				935E0C6815540748003DF889 /* ANT+-and-ANT-n-Suunto.png in Resources */,
+				935E0C6915540748003DF889 /* ANT+-and-ANT-n-Suunto@2x.png in Resources */,
+				938CA67A1677BDFE0077F96F /* alarm-sound.wav in Resources */,
+				9390409216809CE700AC8E99 /* SILENCE-TAG-down.png in Resources */,
+				9390409316809CE700AC8E99 /* SILENCE-TAG-down@2x.png in Resources */,
+				9390409416809CE700AC8E99 /* SILENCE-TAG.png in Resources */,
+				9390409516809CE700AC8E99 /* SILENCE-TAG@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0A04C2140FF08100A8A19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938CA6761677BD0A0077F96F /* ServerManager.m in Sources */,
+				AB0A04D7140FF08100A8A19B /* main.m in Sources */,
+				AB0A04DB140FF08100A8A19B /* NordicSemiAppDelegate.m in Sources */,
+				AB0A04E1140FF08100A8A19B /* RootViewController.m in Sources */,
+				ABF26998141035930013B3B1 /* HeartrateViewController.m in Sources */,
+				ABF26999141035930013B3B1 /* WFSensorCommonViewController.m in Sources */,
+				ABF269A0141036D50013B3B1 /* SensorManagerViewController.m in Sources */,
+				ABF269B814104FCA0013B3B1 /* BikeSpeedCadenceViewController.m in Sources */,
+				ABF269BE141059FD0013B3B1 /* BikeSpeedViewController.m in Sources */,
+				ABF269C414105CB90013B3B1 /* BikeCadenceViewController.m in Sources */,
+				ABF269CE14105E130013B3B1 /* BikePowerCalibration.m in Sources */,
+				ABF269CF14105E130013B3B1 /* BikePowerViewController.m in Sources */,
+				ABF269D7141060740013B3B1 /* FootpodViewController.m in Sources */,
+				ABA69D2C1416DC0900B5AA13 /* AntViewController.m in Sources */,
+				ABA69D2D1416DC0900B5AA13 /* CommandChooserController.m in Sources */,
+				AB9CD018146DAB00002EEAA3 /* SettingsViewController.m in Sources */,
+				D4B56C3A148EA12C00FFE251 /* DTCustomColoredAccessory.m in Sources */,
+				D424B49E1490723E004B1F0F /* AntSensorsViewController.m in Sources */,
+				D424B5351490815B004B1F0F /* NordicNavigationBar.m in Sources */,
+				D498341B1492747600EBC872 /* HeartrateSimpleViewController.m in Sources */,
+				D4983442149292AC00EBC872 /* NSSensorSimpleBaseVC.m in Sources */,
+				D49834511493E97100EBC872 /* ConfigScrollerController.m in Sources */,
+				D405113E1496D2C4004F1B01 /* RunningViewController.m in Sources */,
+				D41E92B81497183400456989 /* BTLESensorsViewController.m in Sources */,
+				D41E92C11497B9ED00456989 /* BikingViewController.m in Sources */,
+				D4EF410C149D3F42008641AC /* ConfigAndHelpView.m in Sources */,
+				D491330A149EF03600A937F4 /* HelpViewController.m in Sources */,
+				D4913319149F00E200A937F4 /* DDPageControl.m in Sources */,
+				D4852EF614A51D520045DAFE /* ProximitySimpleViewController.m in Sources */,
+				D4852EF714A51D520045DAFE /* TempSimpleViewController.m in Sources */,
+				D4852F0814A51DA00045DAFE /* ProximityViewController.m in Sources */,
+				D4852F0914A51DA00045DAFE /* TemperatureViewController.m in Sources */,
+				D4852F3614ABA33D0045DAFE /* FitDeviceViewController.m in Sources */,
+				D4852F3814ABA33D0045DAFE /* FitFileTableView.m in Sources */,
+				D4852F3A14ABA33D0045DAFE /* WFFitDirectoryEntry.m in Sources */,
+				D4852F3D14ABA53D0045DAFE /* WFFitWatchManager.m in Sources */,
+				D4AF432A14B37F6900D9DF92 /* HistoryManager.m in Sources */,
+				D4AF433914B3838E00D9DF92 /* BloodPressureViewController.m in Sources */,
+				D4AF433B14B3838E00D9DF92 /* BPHistoryViewController.m in Sources */,
+				D4AF433D14B3838E00D9DF92 /* WeightHistoryViewController.m in Sources */,
+				D4AF433F14B3838E00D9DF92 /* WeightScaleViewController.m in Sources */,
+				D4AF434114B3838E00D9DF92 /* WFFSSensorVCBase.m in Sources */,
+				D4B8FA1514F580F900E16B2A /* BTBloodPressureVC.m in Sources */,
+				D4B8FA1A14F58D2D00E16B2A /* BTBloodPressureViewController.m in Sources */,
+				D4333FEE14F6CAAC00902A40 /* BTGlucoseDetailVC.m in Sources */,
+				D4333FF014F6CAAC00902A40 /* BTGlucoseVC.m in Sources */,
+				D4333FF814F73D0200902A40 /* BGMViewController.m in Sources */,
+				D433400614F9471F00902A40 /* GlucoseVC.m in Sources */,
+				D433401114F9649500902A40 /* CGMViewController.m in Sources */,
+				D41D4140150A6C0300F081F8 /* ANTDeviceInfoVC.m in Sources */,
+				D41D4144150A6C1A00F081F8 /* BTDeviceInfoVC.m in Sources */,
+				D42F8B381513DA7100F78E62 /* MultiConfigScrollerController.m in Sources */,
+				D42F8B3D1513DCC100F78E62 /* GlucoseVCSettings.m in Sources */,
+				D4D42D4B15375EBF0001BDB3 /* OdometerHistoryVC.m in Sources */,
+				D43882B5153C73FE00D253DC /* WeightScaleConfController.m in Sources */,
+				D42B44C415419FF0009989F2 /* BTBPRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB0A04D3140FF08100A8A19B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0A04D4140FF08100A8A19B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB0A04DC140FF08100A8A19B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0A04DD140FF08100A8A19B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB0A04E2140FF08100A8A19B /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0A04E3140FF08100A8A19B /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABA69D281416DC0900B5AA13 /* AntViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA69D291416DC0900B5AA13 /* en */,
+			);
+			name = AntViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABA69D2A1416DC0900B5AA13 /* CommandChooserController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA69D2B1416DC0900B5AA13 /* en */,
+			);
+			name = CommandChooserController.xib;
+			sourceTree = "<group>";
+		};
+		ABF26991141035930013B3B1 /* HeartrateViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF26992141035930013B3B1 /* en */,
+			);
+			name = HeartrateViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF2699B141036D50013B3B1 /* SensorManagerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF2699C141036D50013B3B1 /* en */,
+			);
+			name = SensorManagerViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF269B614104FCA0013B3B1 /* BikeSpeedCadenceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269B714104FCA0013B3B1 /* en */,
+			);
+			name = BikeSpeedCadenceViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF269BC141059FD0013B3B1 /* BikeSpeedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269BD141059FD0013B3B1 /* en */,
+			);
+			name = BikeSpeedViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF269C214105CB90013B3B1 /* BikeCadenceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269C314105CB90013B3B1 /* en */,
+			);
+			name = BikeCadenceViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF269CA14105E130013B3B1 /* BikePowerCalibration.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269CB14105E130013B3B1 /* en */,
+			);
+			name = BikePowerCalibration.xib;
+			sourceTree = "<group>";
+		};
+		ABF269CC14105E130013B3B1 /* BikePowerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269CD14105E130013B3B1 /* en */,
+			);
+			name = BikePowerViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABF269D2141060730013B3B1 /* FootpodViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF269D3141060730013B3B1 /* en */,
+			);
+			name = FootpodViewController.xib;
+			sourceTree = "<group>";
+		};
+		D40511391496D2B1004F1B01 /* RunningViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D405113A1496D2B1004F1B01 /* en */,
+			);
+			name = RunningViewController.xib;
+			sourceTree = "<group>";
+		};
+		D41D4145150A6C6400F081F8 /* ANTDeviceInfoVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41D4146150A6C6400F081F8 /* en */,
+			);
+			name = ANTDeviceInfoVC.xib;
+			sourceTree = "<group>";
+		};
+		D41D4147150A6C6400F081F8 /* BTDeviceInfoVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41D4148150A6C6400F081F8 /* en */,
+			);
+			name = BTDeviceInfoVC.xib;
+			sourceTree = "<group>";
+		};
+		D41E92B21497182A00456989 /* BTLESensorsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41E92B31497182A00456989 /* en */,
+			);
+			name = BTLESensorsViewController.xib;
+			sourceTree = "<group>";
+		};
+		D41E92C31497B9F900456989 /* BikingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41E92C41497B9F900456989 /* en */,
+			);
+			name = BikingViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4333FF314F73CE700902A40 /* BGMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4333FF414F73CE800902A40 /* en */,
+			);
+			name = BGMViewController.xib;
+			sourceTree = "<group>";
+		};
+		D433401214F964AF00902A40 /* CGMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D433401314F964B000902A40 /* en */,
+			);
+			name = CGMViewController.xib;
+			sourceTree = "<group>";
+		};
+		D43882B7153C741A00D253DC /* WeightScaleConfController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43882B8153C741A00D253DC /* en */,
+			);
+			name = WeightScaleConfController.xib;
+			sourceTree = "<group>";
+		};
+		D4852EF814A51D720045DAFE /* ProximitySimpleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4852EF914A51D720045DAFE /* en */,
+			);
+			name = ProximitySimpleViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4852EFA14A51D720045DAFE /* ProximityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4852EFB14A51D720045DAFE /* en */,
+			);
+			name = ProximityViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4852EFC14A51D720045DAFE /* TemperatureViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4852EFD14A51D720045DAFE /* en */,
+			);
+			name = TemperatureViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4852EFE14A51D720045DAFE /* TempSimpleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4852EFF14A51D720045DAFE /* en */,
+			);
+			name = TempSimpleViewController.xib;
+			sourceTree = "<group>";
+		};
+		D49834571494697000EBC872 /* HeartrateSimpleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49834581494697000EBC872 /* en */,
+			);
+			name = HeartrateSimpleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0A04E5140FF08100A8A19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB0A04E6140FF08100A8A19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0A04E8140FF08100A8A19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NordicSemiDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../dependencies/CorePlotHeaders",
+					"$(SRCROOT)/../dependencies/WFConnector.framework/**",
+				);
+				INFOPLIST_FILE = "Demo/NordicSemiDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = NordicSemiDemo;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SHARED_PRECOMPS_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB0A04E9140FF08100A8A19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NordicSemiDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../dependencies/CorePlotHeaders",
+					"$(SRCROOT)/../dependencies/WFConnector.framework/**",
+				);
+				INFOPLIST_FILE = "Demo/NordicSemiDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../dependencies\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = NordicSemiDemo;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SHARED_PRECOMPS_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0A04C0140FF08000A8A19B /* Build configuration list for PBXProject "NordicSemiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0A04E5140FF08100A8A19B /* Debug */,
+				AB0A04E6140FF08100A8A19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0A04E7140FF08100A8A19B /* Build configuration list for PBXNativeTarget "NordicSemiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0A04E8140FF08100A8A19B /* Debug */,
+				AB0A04E9140FF08100A8A19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0A04BD140FF08000A8A19B /* Project object */;
+}
