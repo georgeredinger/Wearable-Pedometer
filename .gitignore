@@ -49,3 +49,18 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# KEIL files#
+######################
+*.hex
+*.crf
+*.d
+*.lst
+*.axf
+*.htm
+*.lnp
+*.map
+*.plg
+*.sct
+*.thinkpad
+*.dep
